@@ -1,0 +1,165 @@
+﻿### Charn
+### Created by Aaron Fischer
+Charn = {
+	selectable = yes
+
+	ship_names = {
+		generic = {
+			Lekas Sel'Tanis Bruudish Afternon Ocannon Torias Jaelthynine Atamine Alscalot Illego Ypsum Hebroth Utelfar Scascenon Rorscoth Ebretu Wicinte Praefre Xe'Canno Raetath Ibiloth Melcorn Hasvru Pepple Abentide Illosh Frogothhu Bilsingu
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			random_names = { Has'ku Ab-Tre-Nor Lostun Elghaelborne Asceldu Chamranack Seebon }
+			sequential_name = "%O% Frontier Outpost"
+		}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}
+	}
+
+	fleet_names = {
+		random_names = {
+		}
+		sequential_name = "%O% Naval Legion"
+	}
+
+	### ARMIES
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Defense Command"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Attack Command"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Slave Command"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Clone Command"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Automaton Command"
+		}
+
+		android_army = {
+			sequential_name = "%O% Synth Command"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psi Command"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Command"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Enhanced Command"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Charn Sirrus Molthus E'Grenar El-Suppus Shebel Hyyde Willthorn Somran Austibule Leychar X'Mal Shomorrah Celbah Fraentar Alabath Almenahr Hrosho Elsan Qae Qraintath Liekstar She'Xe'Somne'Freloth Iishow
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Likabon Scorrnath Scarbaraeth X'Trammelth Xelnask Xae Xae'Easau Xorelti Ypsau Yranti Shri-So Selsen Zim Gir Pooth Pebamel Elastu Uridi Uridoth Del'Na Excrassin Obal Obalna Qimt Qereska Qilchon Nolesce Fifthon
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+				Faragulek Klandrax Kulegaf Ludremex Maxerdok Tredagik Rukagikex Trokaxeg
+			}
+
+			regnal_second_names = {
+				Raxeg
+			}
+		}
+	}
+}

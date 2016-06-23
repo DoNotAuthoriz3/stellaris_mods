@@ -1,0 +1,180 @@
+﻿### Thirteen
+thirteen = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			random names = {
+				Listener Watcher Observer Spy Pensword Voyuer Telescope Periscope Scope Photographer Videographer Steganographer Recorder Seer Longsight Lurker }
+		}
+
+		corvette = {
+	###		sequential_name = "XX-%0%cvt"
+		}
+
+		destroyer = {
+###			sequential_name = "XX-%0%dtr"
+		}
+
+		cruiser = {
+###			sequential_name = "XX-%0%csr"
+		}
+
+		battleship = {
+###			sequential_name = "XX-%0%bsp"
+		}
+
+		science = {
+###			sequential_name = "XX-%0%sci"
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+###			sequential_name = "XX-%0%utl"
+		}
+
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			random_names = {
+				Watchplace "Spy Post" Lens Farview
+			}
+			sequential_name = "%O% Listening Post"
+		}
+
+		military_station_small = {}
+
+		military_station_medium = {}
+
+		military_station_large = {}
+	}
+
+	fleet_names = {
+		random_names = {
+			Silentfleet Silentcentury Silentcorps Silentsquadron
+		}
+		sequential_name = "%O% Silence Keepers"
+	}
+
+
+	###ARMIES
+	army_names = {
+
+		defense_army = {
+			sequential_name = "%O% Defense Pod"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Assault Pod"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Slave Pod"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Clone Pod"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Droid Pod"
+		}
+
+		android_army = {
+			sequential_name = "%O% Android Pod"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psi-Commando Pod"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Pod"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Gene-Commando Pod"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Hidden Fortress" Enclave Burrowdeep "Place of Eyes" Tomb Witherswick End Quiet Drippingcave Nestleplace Goodhollow Watcher Witchesden Crypt "Silent Hall" Observatory Laboratory Journal Library Archives "Knowledge Lost"
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Curiousity Wonderlust Seeker Stalker Predator Hunter Pouncer Adventurer Exploreminator Sightminster Nightsearcher Moonwatcher Quieteye Sleepy Whisperkeeper Whispers Softvoice Goodeye Huntster Clause Fluffy Spot Spotter Solitude Loner
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+				Unperturbed Unbroken Unbreached Solumn Revered
+			}
+
+			regnal_second_names = {
+				Silence
+			}
+		}
+	}
+}

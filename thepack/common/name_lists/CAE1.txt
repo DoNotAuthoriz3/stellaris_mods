@@ -1,0 +1,317 @@
+### Caesarean Stellar Directorate
+### Created by John Carpenter 2016-04-15
+
+CAE1 = {
+   selectable = yes
+
+   ship_names = {
+     generic = {
+       "Respect" "Humilitas" "Dignity" "Perseverance" "Loyalty" "Laetitia" 
+       "Service" "Persoon" "Gravitas" "Faith" "Hope" "Aequitas" "Abundantia" "Fides" "Concordia" "Iustitia" "Liberalitas" "Nobilitas" "Ops" "Virtus" "Providentia" "Salus"
+       "Charity" "Justice" "Prudence" "Temperance" "Ser Pounce" "Uberitas" "Pudicita" 
+       "Valor" "Courage" "Honor" "Liberality" "Diligence"  "Comitas" "Auctoritas" "Firmitas" "Frugalitas" "Pietas" "Salubritas" "Veritas"
+     }
+    
+     corvette = {
+       "Evans" "Pos" "Charters" "Walsh" "Lo Dico" "Gaertner" "Edinburgh" "Port Dover" "St. Laurence" 
+       "Welch" "Shelley" "Noonan" "DeVos" "Deelen" "Conrad" "Troy" "Colborne" "Kyle Hood" 
+       "Smith" "Stone" "DeBock" "DeVoght" "Ranson" "Caroll" "Katz" "Dorr" "Chusroskie" "Muller"
+       "Guzic" "Rossi" "LeBeer" "Kosar" "Srok" "Thomas Smith" "Holliday" "Hutchings" "Saito" "Garwood"
+     }
+    
+     constructor = {
+       sequential_name = "LabMin %O%"
+     }
+    
+     colonizer = {
+       sequential_name = "ColMin %O%"
+     }
+    
+     science = {
+       "Joan Bertrand" "Christine Stewart" "Michelle Paquin" "Andrew Miller" "Michael Dryden"
+       "Pascal Leprade" "Michal Grzadkowski" "Roger E. Bumgarner" "Peter Csaszar"
+       "Joy Bartlett" "Shawna Greatrix"  "Brinker" "Peter Vansickle" "Steve Talos"
+       "Richard Delaney" "Joe Citino" "Finn" 
+     }
+    
+     destroyer = {
+       "Elgin" "Lawfield" "Valla" "Nixon" "Clark" "Ardor" "Birt" "MacDonald"
+       "Colwell" "North" "Broker" "Oliver" "Gartner" "Princess Jill"
+       "Allen" "Duval" "Jacob" "Grzadkowski" "Anderson" "St. Pierre" "Renee Tomovcik"
+       "Davis" "Umunna" "Molko" "Mason" "Soye" "Yoshida" "Laprade" "Burke"
+     }
+    
+     cruiser = {
+       "Matthew Chapman" "Alexander Condie" "Andreas Helmer" "Lauren Helmer" "Roger G. Bumgarner" "Crothersgrad" "Sifton"
+       "Micahel Keepence" "Owen Casselman" "Edward Soye" "Adam Timpf" "Kevin Scott" "Henry Smith" 
+       "Corey Fry" "Alexander Welsh" "Gareth Holmes" "Countess of Eden" "Curtis Broker" "Shelley" 
+       "Cooper Eaton" "Retnah" "Ali Jaffrey" "Derek Gingrich" "Kevin Moning" "Baron Parkland" "Maguire"
+     }
+    
+     battleship = {
+       "Rota-Rajik" "Jubellius" "John Carl" "Sherman" "Duke of Talbot" "Debbie Alice"
+       "Duchess of Hudson" "Duchess of Caesarea" "Duchess of the Rhine" "Baroness of Summerhill" "Countess of Eden"
+       "Prince Brock" "Princess Hailey" "Prince Paxton" "Sectron" "Will of the Caesar" 
+       "Earl of Guelph" "Prince Robert" "William Robert" "Daisy Marie" "Verhaeghe" 
+     }
+    
+     orbital_station = { 
+       sequential_name = "Ministry of Labor Station %R%"
+     }
+     mining_station = { 
+       sequential_name = "Ministry of Resources Station %R%"
+     }
+     research_station = { 
+       sequential_name = "Ministry of Science Station %R%"
+     }
+     wormhole_station = { 
+       sequential_name = "Ministry of Transportation Station %R%"
+     }
+     terraform_station = {
+       sequential_name = "Ministry of Environment Station %R%"
+     }
+     observation_station = { 
+       sequential_name = "Ministry of Foreign Affairs Station %R%"
+     }
+     outpost_station = {
+       sequential_name = "Ministry of Defence Station %R%"
+     }
+    
+     transport = {
+     }
+
+     military_station_small = {}
+     military_station_medium = {}
+     military_station_large = {}
+   }
+
+   fleet_names = {
+     random_names = {
+       "Claudian Fleet" "Simconian Fleet" "Dixonian Fleet" "Inglemoorian Fleet" "Whitbean Fleet" "Regnant Fleet" "Dover Fleet" "Caesarean Fleet" "Lochshire Fleet" 
+     }
+     sequential_name = "%R% Task Force"
+   }
+
+   ### ARMIES
+   army_names = {
+     defense_army = {
+       sequential_name = "%R% Auxilia"
+     }
+      
+     assault_army = {
+       sequential_name = "%R% Legio Res publica"
+     }
+    
+     slave_army = {
+       sequential_name = "%R% Foederati"
+     }
+    
+     clone_army = {
+       sequential_name = "Legio Clonizo %R%"
+     }
+    
+     robotic_army = {
+       sequential_name = "Legio Machinum %R%"
+     }
+    
+     android_army = {
+       sequential_name = "Legio Robotum %R"
+     }
+    
+     psionic_army = {
+       sequential_name = "%R% Psychicae"
+     }
+    
+     xenomorph_army = {
+       sequential_name = "%R% Vexillatio Fera"
+     }
+    
+     gene_warrior_army = {
+       sequential_name = "%R% Legio Muto"
+     }
+   }
+
+   planet_names = {
+
+     # Names that can be assigned to all planet types
+     generic = {
+       names = {
+         "Sherman" "Junius" "Felix" "Agrippus" "Trajan" "Brittanicus" "Drusus" "Livia" "Germanicus" "William's Planet" "Marie's Planet" "Herna's Planet" "Alfons' Planet" "Iohnnes" "Postumus" "Planitia" "Augustus" "Cicero" "Julius" "Gaius" "Octavius" "Antonia" "Marcellus" "Gemellus" "Messalina" "Valerius" "Juvenal" "Pliny" "Gibbon" "Virgil" "Carolus" 
+       }
+     }
+    
+     pc_desert = {
+       names = {
+"Talbot" "Hudson" "Lochshire" "Colborne" "Patrick's World" "Carpenteria" "Davenport" "Casier" "Dixon" "Whitby" "Pinehurst" "Eden" "Bay" "Guelph" "Kensington" "Walsingham" "Barton" "Sunninghills" "Kenmore" "Berlin" "Parkland" "Inglemoor" "Dover" "Cole" "Borden" "Crothersgrad" "Pos" "Hood" "Charters" "Chapman" "Nova Caesarea" "Nova Mayna" 
+       }
+     }
+    
+     pc_arid = {
+       names = {
+
+       }
+     }
+    
+     pc_tropical = {
+       names = {
+       }
+     }
+    
+     pc_continental = {
+       names = {
+       }
+     }
+    
+     pc_ocean = {
+       names = {
+       }
+     }
+    
+     pc_tundra = {
+       names = {
+       }
+     }
+    
+     pc_arctic = {
+       names = {
+       }
+     }
+   }
+
+
+   ### CHARACTERS
+
+   character_names = {
+     default = {
+       # A complete name
+       full_names = {
+       }
+      
+       # Always combined with a second name
+       first_names = {
+        Mada
+David
+John
+Matthew
+Michael
+Alexander
+Tynan
+Andrew
+Aaron
+Justin
+Owen
+Michelle
+Carl
+Lauren
+Andreas
+Roger
+Evelyn
+Renee
+Edward
+Henry
+Donald
+Kevin
+Esther
+Corey
+Daphne
+Cosmo
+Angelo
+Scott
+Nadia
+Jacob
+Giles
+James
+Debbie
+Wesley
+Brock
+Hailey
+Paxton
+Kimberly
+Herna
+Curtis
+William
+Robert
+Jarrett
+Ryan
+Niall
+Courtney
+Aisha
+Jeremy
+Nate
+Joe
+Andrea
+Dominica
+Jane
+Jamie
+Daniel
+
+       }
+      
+       # Always combined with a first name
+       second_names = {
+Carpenter
+Casier
+Noonan
+Hudson
+Evans
+Pos
+Walsh
+Welch
+Charters
+Crothers
+Condie
+Helmer
+Kennedy
+Bumgarner
+Casselman
+Keepence
+Scott
+Timpf
+Broker
+Chapman
+Holmes
+Pringle
+Fischer
+Dryden
+Chupper
+Tomovcik
+Hayden-Halinen
+Moning
+Fry
+Bush
+Scouten
+Slaney
+DeKonick
+Gaertner
+Srok
+Vandepoele
+Deelen
+Saito
+Miller
+Csaszar
+Muller
+Knott
+Oliver
+Nixon
+Clark
+Rossi
+Garwood
+Yoshida
+Bourque
+Maguire
+Burke
+Diefenbaker
+
+
+       }
+      
+       regnal_first_names = {
+         Rajik
+       }
+      
+       regnal_second_names = {
+         Prak
+       }
+     }
+   }
+}

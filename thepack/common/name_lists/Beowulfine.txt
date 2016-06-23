@@ -1,0 +1,179 @@
+﻿### Beowulfine
+Belowulfine = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+		}
+
+		corvette = {
+			C-Guine C-Beouwal C-Hroth C-Gaebo C-Swaeda C-Gorthe C-Angle C-Leljre C-Ful
+		}
+
+		destroyer = {
+			D-Cel D-Thosh D-Mulcy D-Sturlugrash D-Bolduth D-Ohssere D-Frisele D-Chosh D-Cnuthe D-Sint D-Belga
+		}
+
+		cruiser = {
+			R-Abbleburn R-Staelsh R-Vaden R-Hygelia R-Geab R-Bearith R-Shonn R-Lis
+		}
+
+		battleship = {
+			B-Thegn B-Aernaes B-Heore B-Hraelborne B-Unfaern B-Raelk
+		}
+
+		science = {
+			S-
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			random_names = {
+				Sul-Ta-Vor El-Ta-Vor Gul-Ta-Vor Park-Ta-Vor Lorug-Ta-Vor Urakt-Ta-Vor Iliku-Ta-Vor
+			}
+			sequential_name = "%O% Frontier Outpost"
+		}
+
+		military_station_small = {}
+
+		military_station_medium = {}
+
+		military_station_large = {}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Tarkil-Vu Navy Cluster" "Pakkan-Ye Navy Cluster" "Lorgis-Fa Navy Cluster" "Urtaka-Sa Navy Cluster" "Valgar-Je Navy Cluster"
+			"Inilka-Pa Navy Cluster"
+		}
+		sequential_name = "%O% Navy Cluster"
+	}
+
+
+	###ARMIES
+	army_names = {
+
+		defense_army = {
+			sequential_name = "%O% Defense Pod"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Assault Pod"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Slave Pod"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Clone Pod"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Droid Pod"
+		}
+
+		android_army = {
+			sequential_name = "%O% Android Pod"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psi-Commando Pod"
+		}
+
+		Dnomorph_army = {
+			sequential_name = "%O% Dnomorph Pod"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Gene-Commando Pod"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Vord-Ka-Torb Mirg-Vu-Karp Jorg-Se-Krop Reld-Te-Hirk Parg-Ki-Torp Terk-Ba-Pont Virm-Ri-Gand Iram-Je-Otak Larb-Ti-Darm Utam-Ja-Borm
+				Pind-Ra-Vosk Verm-Te-Birg Itil-Sa-Domb Urak-Fe-Tond Urba-Ta-Nack Orol-Ju-Bakk Lirg-Na-Korm Tilk-Ti-Darb Suet-Re-Pold Sisk-In-Atab
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Vi-Ka Po-To Re-Ma Su-Pe Uk-Ma Il-Si Im-Do Ju-Ta Va-Ra Ul-Ta Ib-Na Ek-Ir Er-Ba Bo-Ki Ri-Gu Ro-Ab Uv-Ko Fa-Ra Ol-So Bo-Gu
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+				Vi-Ka Po-To Re-Ma Su-Pe Uk-Ma Il-Si Im-Do Ju-Ta Va-Ra Ul-Ta
+			}
+
+			regnal_second_names = {
+				Mok
+			}
+		}
+	}
+}
