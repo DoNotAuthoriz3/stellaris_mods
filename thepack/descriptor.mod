@@ -1,5 +1,5 @@
 name="thepack"
-path="mod\thepack"
+path="mod\stellaris_mods\thepack"
 tags={
 	"Species"
 }
