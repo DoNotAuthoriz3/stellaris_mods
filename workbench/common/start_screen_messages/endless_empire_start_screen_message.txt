@@ -1,0 +1,10 @@
+# endless Empire start screen trigger
+
+part = {
+	location = 0
+	localization = "START_SCREEN_endless_empire"
+
+	trigger = {
+		has_country_flag = endless_empire
+	}
+}

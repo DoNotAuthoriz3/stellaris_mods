@@ -1,0 +1,37 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+##############################################################
+### Portraits
+###
+### Ex:
+### mam1 = {
+###		spriteType = "GFX_portrait_mam1"
+###		#OR
+###		texturefile = "gfx/interface/portraits/mammalien_massive_01.dds"
+###		#OR
+###		entity = "portrait_mammalian_06_entity"
+###	}
+
+portraits = {
+	#Modz
+
+	exd4 	= {	entity = "portrait_extradimensional_04_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "space_cloud_death"
+					character_textures = {
+						"gfx/models/portraits/extradimensional/Alien_extradimensional_04.dds"
+						"gfx/models/portraits/extradimensional/Alien_extradimensional_041.dds"
+						"gfx/models/portraits/extradimensional/Alien_extradimensional_042.dds"
+						"gfx/models/portraits/extradimensional/Alien_extradimensional_043.dds"
+						"gfx/models/portraits/extradimensional/Alien_extradimensional_044.dds"
+						"gfx/models/portraits/extradimensional/Alien_extradimensional_045.dds"
+					}
+	}
+}

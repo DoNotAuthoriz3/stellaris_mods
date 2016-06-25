@@ -1,0 +1,65 @@
+### The Endless Civilization.
+
+endless =
+{
+	name_list="EXT1"
+	ship_prefix=""
+	species_name="Endless"
+	species_plural="Endless"
+	species_class="EXT"
+	species_adjective="Endless"
+	species_bio="Scions of an empire brought to ruin, the Endless are composed of collectives of nano-robots. Once organic creatures of flesh and blood, the Endless were obsessed with immortality; eager research in  genetics, psychology, neurology, robotization, computing and artificial intelligence produced the means by which the Endless' progenitors could fully recreate their consciousnesses in enduring android bodies. Continuing research in miniaturization and nano-robots led to the discovery of a newer, hardier, and much more capable form: the networked nanite cloud. Each Endless consists of trillions of such nanomachines, each of which calculates a tiny fraction of that entity's thought and emotion. Linked together in a network, a given Endless can be as many places as once as he chooses to distribute himself. However, their incessant research in to the taboo art of artificial sentience angered an overwhelmingly powerful neighbor; by the time the networked nanite technology was completed, the species was well on its way to extinction, and much of their technological infrastructure had been destroyed. The last few Endless uploaded their consciousnesses to the nanite networks they had managed to construct only days before the last colony of their civilization was razed. Only by the ability to discorporate their beings did the Endless survive the apocalypse wrecked upon the rest of their empire; the Endless form, the pinnacle of that species search for perfect immortality, survived both the weapons of mass destruction and escaped the sensors of the ancient, genocidal empire bent on preventing Artificial Intelligences. After a period of quiescence, when their tormentor withdrew, they slowly began the process of re-establishing their civilization and rediscovering all of the accumulated research they had lost."
+	portrait="exd4"
+	name="Endless"
+	adjective="Reach"
+	government="subconscious_consensus"
+	ftl=wormhole
+	weapon="tech_missiles_1"
+	planet_name="Schrorprix"
+	planet_class="pc_nuked"
+	system_name="Messiah"
+	initializer="sorrow_system"
+	graphical_culture="pirate_01"
+	city_graphical_culture="ancient_01"
+
+	flags = { endless_empire ai_accord custom_start_screen }
+
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"dark_grey"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Monster"
+		portrait="exd4"
+		texture=4
+		hair=0
+		clothes=0
+		ruler_title="Executor"
+		trait="trait_ruler_champion_of_the_people"
+		#trait="trait_ruler_from_the_ranks"
+	}
+	spawn_enabled=no
+	ethic="ethic_individualist"
+	ethic="ethic_xenophobe"
+	ethic="ethic_materialist"
+	#trait="trait_endless"
+	#trait="trait_mechanical"
+	trait="trait_very_strong"
+	trait="trait_charismatic"
+	#trait="trait_nomadic"
+	trait="trait_deviants"
+	trait="trait_solitary"
+}

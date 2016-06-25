@@ -1,0 +1,9 @@
+##################
+# Species Traits #
+##################
+
+trait_endless = {
+	cost = 10
+	modifier = { leader_age = 32767 }
+	opposites = { "trait_enduring" "trait_fleeting" }
+}

@@ -6,88 +6,90 @@ CAE1 = {
 
    ship_names = {
      generic = {
-       "Respect" "Humilitas" "Dignity" "Perseverance" "Loyalty" "Laetitia" 
+       "Respect" "Humilitas" "Dignity" "Perseverance" "Loyalty" "Laetitia"
        "Service" "Persoon" "Gravitas" "Faith" "Hope" "Aequitas" "Abundantia" "Fides" "Concordia" "Iustitia" "Liberalitas" "Nobilitas" "Ops" "Virtus" "Providentia" "Salus"
-       "Charity" "Justice" "Prudence" "Temperance" "Ser Pounce" "Uberitas" "Pudicita" 
+       "Charity" "Justice" "Prudence" "Temperance" "Ser Pounce" "Uberitas" "Pudicita"
        "Valor" "Courage" "Honor" "Liberality" "Diligence"  "Comitas" "Auctoritas" "Firmitas" "Frugalitas" "Pietas" "Salubritas" "Veritas"
      }
-    
+
      corvette = {
-       "Evans" "Pos" "Charters" "Walsh" "Lo Dico" "Gaertner" "Edinburgh" "Port Dover" "St. Laurence" 
-       "Welch" "Shelley" "Noonan" "DeVos" "Deelen" "Conrad" "Troy" "Colborne" "Kyle Hood" 
-       "Smith" "Stone" "DeBock" "DeVoght" "Ranson" "Caroll" "Katz" "Dorr" "Chusroskie" "Muller"
-       "Guzic" "Rossi" "LeBeer" "Kosar" "Srok" "Thomas Smith" "Holliday" "Hutchings" "Saito" "Garwood"
+
+ "MinDef I" "MinDef II" "MinDef III" "MinDef IV" "MinDef V" "MinDef VI" "MinDef VII" "MinDef VIII" "MinDef IX" "MinDef X" "MinDef XI""MinDef XII""MinDef XIII""MinDef XIV""MinDef XV""MinDef XVI""MinDef XVII""MinDef XVIII""MinDef XIX""MinDef XX""MinDef XXI""MinDef XXII""MinDef XXIII""MinDef XXIV""MinDef XXV""MinDef XXVI""MinDef XXVII""MinDef XXVIII""MinDef XXIX""MinDef XXX""MinDef XXXI""MinDef XXXII""MinDef XXXIII""MinDef XXXIV""MinDef XXXV""MinDef XXXVI""MinDef XXXVII""MinDef XXXVIII""MinDef XXXIX""MinDef XL""MinGuard I" "MinGuard II" "MinGuard III" "MinGuard IV" "MinGuard V" "MinGuard VI" "MinGuard VII" "MinGuard VIII" "MinGuard IX" "MinGuard X" "MinGuard XI""MinGuard XII""MinGuard XIII""MinGuard XIV""MinGuard XV""MinGuard XVI""MinGuard XVII""MinGuard XVIII""MinGuard XIX""MinGuard XX""MinGuard XXI""MinGuard XXII""MinGuard XXIII""MinGuard XXIV""MinGuard XXV""MinGuard XXVI""MinGuard XXVII""MinGuard XXVIII""MinGuard XXIX""MinGuard XXX""MinGuard XXXI""MinGuard XXXII""MinGuard XXXIII""MinGuard XXXIV""MinGuard XXXV""MinGuard XXXVI""MinGuard XXXVII""MinGuard XXXVIII""MinGuard XXXIX""MinGuard XL""MinSec I" "MinSec II" "MinSec III" "MinSec IV" "MinSec V" "MinSec VI" "MinSec VII" "MinSec VIII" "MinSec IX" "MinSec X" "MinSec XI""MinSec XII""MinSec XIII""MinSec XIV""MinSec XV""MinSec XVI""MinSec XVII""MinSec XVIII""MinSec XIX""MinSec XX""MinSec XXI""MinSec XXII""MinSec XXIII""MinSec XXIV""MinSec XXV""MinSec XXVI""MinSec XXVII""MinSec XXVIII""MinSec XXIX""MinSec XXX""MinSec XXXI""MinSec XXXII""MinSec XXXIII""MinSec XXXIV""MinSec XXXV""MinSec XXXVI""MinSec XXXVII""MinSec XXXVIII""MinSec XXXIX""MinSec XL"
      }
-    
+
      constructor = {
-       sequential_name = "LabMin %O%"
+      "MinLab I" "MinLab II" "MinLab III" "MinLab IV" "MinLab V" "MinLab VI" "MinLab VII" "MinLab VIII" "MinLab IX" "MinLab X" "MinLab XI""MinLab XII""MinLab XIII""MinLab XIV""MinLab XV""MinLab XVI""MinLab XVII""MinLab XVIII""MinLab XIX""MinLab XX""MinLab XXI""MinLab XXII""MinLab XXIII""MinLab XXIV""MinLab XXV""MinLab XXVI""MinLab XXVII""MinLab XXVIII""MinLab XXIX""MinLab XXX""MinLab XXXI""MinLab XXXII""MinLab XXXIII""MinLab XXXIV""MinLab XXXV""MinLab XXXVI""MinLab XXXVII""MinLab XXXVIII""MinLab XXXIX""MinLab XL"
      }
-    
+
      colonizer = {
-       sequential_name = "ColMin %O%"
+  "MinCol I" "MinCol II" "MinCol III" "MinCol IV" "MinCol V" "MinCol VI" "MinCol VII" "MinCol VIII" "MinCol IX" "MinCol X" "MinCol XI""MinCol XII""MinCol XIII""MinCol XIV""MinCol XV""MinCol XVI""MinCol XVII""MinCol XVIII""MinCol XIX""MinCol XX""MinCol XXI""MinCol XXII""MinCol XXIII""MinCol XXIV""MinCol XXV""MinCol XXVI""MinCol XXVII""MinCol XXVIII""MinCol XXIX""MinCol XXX""MinCol XXXI""MinCol XXXII""MinCol XXXIII""MinCol XXXIV""MinCol XXXV""MinCol XXXVI""MinCol XXXVII""MinCol XXXVIII""MinCol XXXIX""MinCol XL"
      }
-    
+
      science = {
        "Joan Bertrand" "Christine Stewart" "Michelle Paquin" "Andrew Miller" "Michael Dryden"
-       "Pascal Leprade" "Michal Grzadkowski" "Roger E. Bumgarner" "Peter Csaszar"
+       "Pascal Leprade" "Michal Grzadkowski" "Roger E. Bumgarner" "Peter Csaszar" "Gareth Holmes"
        "Joy Bartlett" "Shawna Greatrix"  "Brinker" "Peter Vansickle" "Steve Talos"
-       "Richard Delaney" "Joe Citino" "Finn" 
+       "Richard Delaney" "Joe Citino" "Bernard Finn" "Jock Pirrie"
      }
-    
+
      destroyer = {
-       "Elgin" "Lawfield" "Valla" "Nixon" "Clark" "Ardor" "Birt" "MacDonald"
+       "Elgin" "Lawfield" "Valla" "Nixon" "Clark" "Ardor" "Birt" "MacDonald"  "Smith" "Stone" "DeBock" "DeVoght" "Ranson" "Caroll" "Katz" "Dorr" "Chusroskie" "Muller" "Kucharczyk"
+       "Guzic" "Rossi" "LeBeer" "Kosar" "Srok" "Thomas Smith" "Holliday" "Hutchings" "Saito" "Garwood"
        "Colwell" "North" "Broker" "Oliver" "Gartner" "Princess Jill"
        "Allen" "Duval" "Jacob" "Grzadkowski" "Anderson" "St. Pierre" "Renee Tomovcik"
        "Davis" "Umunna" "Molko" "Mason" "Soye" "Yoshida" "Laprade" "Burke"
      }
-    
+
      cruiser = {
        "Matthew Chapman" "Alexander Condie" "Andreas Helmer" "Lauren Helmer" "Roger G. Bumgarner" "Crothersgrad" "Sifton"
-       "Micahel Keepence" "Owen Casselman" "Edward Soye" "Adam Timpf" "Kevin Scott" "Henry Smith" 
-       "Corey Fry" "Alexander Welsh" "Gareth Holmes" "Countess of Eden" "Curtis Broker" "Shelley" 
+       "Michael Keepence" "Owen Casselman" "Edward Soye" "Adam Timpf" "Kevin Scott" "Henry Smith" "Baron Berlin"
+       "Corey Fry" "Alexander Welsh" "Countess of Eden" "Curtis Broker" "Evans" "Pos" "Charters" "Walsh" "Lo Dico" "Gaertner" "Edinburgh" "Port Dover" "St. Laurence" "John Graves Simcoe"
+       "Welch" "DeVos" "Deelen" "Conrad" "Troy" "Colborne" "Kyle Hood" "Kinch" "Nation Hahn"
        "Cooper Eaton" "Retnah" "Ali Jaffrey" "Derek Gingrich" "Kevin Moning" "Baron Parkland" "Maguire"
      }
-    
+
      battleship = {
-       "Rota-Rajik" "Jubellius" "John Carl" "Sherman" "Duke of Talbot" "Debbie Alice"
+       "Rota-Rajik" "Jubellius" "John Carl" "Sherman" "Duke of Talbot" "Debbie Alice" "Matthew Chapman"
        "Duchess of Hudson" "Duchess of Caesarea" "Duchess of the Rhine" "Baroness of Summerhill" "Countess of Eden"
-       "Prince Brock" "Princess Hailey" "Prince Paxton" "Sectron" "Will of the Caesar" 
-       "Earl of Guelph" "Prince Robert" "William Robert" "Daisy Marie" "Verhaeghe" 
+       "Prince Brock" "Princess Hailey" "Prince Paxton" "Sectron" "Will of the Caesar" "Noonan" "Alexander Condie"
+       "Earl of Guelph" "Prince Robert" "William Robert" "Daisy Marie" "Verhaeghe" "Carpenter"
      }
-    
-     orbital_station = { 
-       sequential_name = "Ministry of Labor Station %R%"
+
+     orbital_station = {
+      "Ministry of Labor Station I" "Ministry of Labor Station II" "Ministry of Labor Station III" "Ministry of Labor Station IV" "Ministry of Labor Station V" "Ministry of Labor Station VI" "Ministry of Labor Station VII" "Ministry of Labor Station VIII" "Ministry of Labor Station IX" "Ministry of Labor Station X" "Ministry of Labor Station XI""Ministry of Labor Station XII""Ministry of Labor Station XIII""Ministry of Labor Station XIV""Ministry of Labor Station XV""Ministry of Labor Station XVI""Ministry of Labor Station XVII""Ministry of Labor Station XVIII""Ministry of Labor Station XIX""Ministry of Labor Station XX""Ministry of Labor Station XXI""Ministry of Labor Station XXII""Ministry of Labor Station XXIII""Ministry of Labor Station XXIV""Ministry of Labor Station XXV""Ministry of Labor Station XXVI""Ministry of Labor Station XXVII""Ministry of Labor Station XXVIII""Ministry of Labor Station XXIX""Ministry of Labor Station XXX""Ministry of Labor Station XXXI""Ministry of Labor Station XXXII""Ministry of Labor Station XXXIII""Ministry of Labor Station XXXIV""Ministry of Labor Station XXXV""Ministry of Labor Station XXXVI""Ministry of Labor Station XXXVII""Ministry of Labor Station XXXVIII""Ministry of Labor Station XXXIX""Ministry of Labor Station XL"
      }
-     mining_station = { 
-       sequential_name = "Ministry of Resources Station %R%"
+     mining_station = {
+
      }
-     research_station = { 
-       sequential_name = "Ministry of Science Station %R%"
+     research_station = {
+
      }
-     wormhole_station = { 
-       sequential_name = "Ministry of Transportation Station %R%"
+     wormhole_station = {
+
      }
      terraform_station = {
-       sequential_name = "Ministry of Environment Station %R%"
+
      }
-     observation_station = { 
-       sequential_name = "Ministry of Foreign Affairs Station %R%"
+     observation_station = {
+
      }
      outpost_station = {
-       sequential_name = "Ministry of Defence Station %R%"
+
      }
-    
+
      transport = {
      }
 
-     military_station_small = {}
-     military_station_medium = {}
-     military_station_large = {}
+     military_station_small = {
+"Militum Station I" "Militum Station II" "Militum Station III" "Militum Station IV" "Militum Station V" "Militum Station VI" "Militum Station VII" "Militum Station VIII" "Militum Station IX" "Militum Station X" "Militum Station XI""Militum Station XII""Militum Station XIII""Militum Station XIV""Militum Station XV""Militum Station XVI""Militum Station XVII""Militum Station XVIII""Militum Station XIX""Militum Station XX""Militum Station XXI""Militum Station XXII""Militum Station XXIII""Militum Station XXIV""Militum Station XXV""Militum Station XXVI""Militum Station XXVII""Militum Station XXVIII""Militum Station XXIX""Militum Station XXX""Militum Station XXXI""Militum Station XXXII""Militum Station XXXIII""Militum Station XXXIV""Militum Station XXXV""Militum Station XXXVI""Militum Station XXXVII""Militum Station XXXVIII""Militum Station XXXIX""Militum Station XL"}
+     military_station_medium = {"Praesidium I" "Praesidium II" "Praesidium III" "Praesidium IV" "Praesidium V" "Praesidium VI" "Praesidium VII" "Praesidium VIII" "Praesidium IX" "Praesidium X" "Praesidium XI""Praesidium XII""Praesidium XIII""Praesidium XIV""Praesidium XV""Praesidium XVI""Praesidium XVII""Praesidium XVIII""Praesidium XIX""Praesidium XX""Praesidium XXI""Praesidium XXII""Praesidium XXIII""Praesidium XXIV""Praesidium XXV""Praesidium XXVI""Praesidium XXVII""Praesidium XXVIII""Praesidium XXIX""Praesidium XXX""Praesidium XXXI""Praesidium XXXII""Praesidium XXXIII""Praesidium XXXIV""Praesidium XXXV""Praesidium XXXVI""Praesidium XXXVII""Praesidium XXXVIII""Praesidium XXXIX""Praesidium XL"}
+     military_station_large = {
+"Castra I" "Castra II" "Castra III" "Castra IV" "Castra V" "Castra VI" "Castra VII" "Castra VIII" "Castra IX" "Castra X" "Castra XI""Castra XII""Castra XIII""Castra XIV""Castra XV""Castra XVI""Castra XVII""Castra XVIII""Castra XIX""Castra XX""Castra XXI""Castra XXII""Castra XXIII""Castra XXIV""Castra XXV""Castra XXVI""Castra XXVII""Castra XXVIII""Castra XXIX""Castra XXX""Castra XXXI""Castra XXXII""Castra XXXIII""Castra XXXIV""Castra XXXV""Castra XXXVI""Castra XXXVII""Castra XXXVIII""Castra XXXIX""Castra XL"}
    }
 
    fleet_names = {
      random_names = {
-       "Claudian Fleet" "Simconian Fleet" "Dixonian Fleet" "Inglemoorian Fleet" "Whitbean Fleet" "Regnant Fleet" "Dover Fleet" "Caesarean Fleet" "Lochshire Fleet" 
+       "Claudian Fleet" "Simconian Fleet" "Dixonian Fleet" "Inglemoorian Fleet" "Whitbean Fleet" "Regnant Fleet" "Dover Fleet" "Caesarean Fleet" "Lochshire Fleet"
      }
      sequential_name = "%R% Task Force"
    }
@@ -97,35 +99,35 @@ CAE1 = {
      defense_army = {
        sequential_name = "%R% Auxilia"
      }
-      
+
      assault_army = {
        sequential_name = "%R% Legio Res publica"
      }
-    
+
      slave_army = {
        sequential_name = "%R% Foederati"
      }
-    
+
      clone_army = {
        sequential_name = "Legio Clonizo %R%"
      }
-    
+
      robotic_army = {
        sequential_name = "Legio Machinum %R%"
      }
-    
+
      android_army = {
        sequential_name = "Legio Robotum %R"
      }
-    
+
      psionic_army = {
        sequential_name = "%R% Psychicae"
      }
-    
+
      xenomorph_army = {
        sequential_name = "%R% Vexillatio Fera"
      }
-    
+
      gene_warrior_army = {
        sequential_name = "%R% Legio Muto"
      }
@@ -136,42 +138,42 @@ CAE1 = {
      # Names that can be assigned to all planet types
      generic = {
        names = {
-         "Sherman" "Junius" "Felix" "Agrippus" "Trajan" "Brittanicus" "Drusus" "Livia" "Germanicus" "William's Planet" "Marie's Planet" "Herna's Planet" "Alfons' Planet" "Iohnnes" "Postumus" "Planitia" "Augustus" "Cicero" "Julius" "Gaius" "Octavius" "Antonia" "Marcellus" "Gemellus" "Messalina" "Valerius" "Juvenal" "Pliny" "Gibbon" "Virgil" "Carolus" 
+         "Sherman" "Junius" "Felix" "Agrippus" "Trajan" "Brittanicus" "Drusus" "Livia" "Germanicus" "William's Planet" "Marie's Planet" "Herna's Planet" "Alfons' Planet" "Iohnnes" "Postumus" "Planitia" "Augustus" "Cicero" "Julius" "Gaius" "Octavius" "Antonia" "Marcellus" "Gemellus" "Messalina" "Valerius" "Juvenal" "Pliny" "Gibbon" "Virgil" "Carolus" "Talbot" "Hudson" "Lochshire" "Colborne" "Patrick's World" "Carpenteria" "Davenport" "Casier" "Dixon" "Whitby" "Pinehurst" "Eden" "Bay" "Guelph" "Kensington" "Walsingham" "Barton" "Sunninghills" "Kenmore" "Berlin" "Parkland" "Inglemoor" "Dover" "Cole" "Borden" "Crothersgrad" "Pos" "Hood" "Charters" "Chapman" "Nova Caesarea" "Nova Mayna" "Crothersgrad" "Moningrad" "Keepence" "Simcoe" "Winchester" "Marbury"
        }
      }
-    
+
      pc_desert = {
        names = {
-"Talbot" "Hudson" "Lochshire" "Colborne" "Patrick's World" "Carpenteria" "Davenport" "Casier" "Dixon" "Whitby" "Pinehurst" "Eden" "Bay" "Guelph" "Kensington" "Walsingham" "Barton" "Sunninghills" "Kenmore" "Berlin" "Parkland" "Inglemoor" "Dover" "Cole" "Borden" "Crothersgrad" "Pos" "Hood" "Charters" "Chapman" "Nova Caesarea" "Nova Mayna" 
+
        }
      }
-    
+
      pc_arid = {
        names = {
 
        }
      }
-    
+
      pc_tropical = {
        names = {
        }
      }
-    
+
      pc_continental = {
        names = {
        }
      }
-    
+
      pc_ocean = {
        names = {
        }
      }
-    
+
      pc_tundra = {
        names = {
        }
      }
-    
+
      pc_arctic = {
        names = {
        }
@@ -186,11 +188,12 @@ CAE1 = {
        # A complete name
        full_names = {
        }
-      
+
        # Always combined with a second name
        first_names = {
         Mada
 David
+Derek
 John
 Matthew
 Michael
@@ -202,6 +205,7 @@ Justin
 Owen
 Michelle
 Carl
+Casey
 Lauren
 Andreas
 Roger
@@ -209,6 +213,7 @@ Evelyn
 Renee
 Edward
 Henry
+Gareth
 Donald
 Kevin
 Esther
@@ -242,11 +247,13 @@ Joe
 Andrea
 Dominica
 Jane
+Travis
 Jamie
 Daniel
+Ali
 
        }
-      
+
        # Always combined with a first name
        second_names = {
 Carpenter
@@ -255,12 +262,15 @@ Noonan
 Hudson
 Evans
 Pos
+Jaffery
 Walsh
 Welch
 Charters
 Crothers
 Condie
 Helmer
+Gingrich
+Redfield
 Kennedy
 Bumgarner
 Casselman
@@ -290,7 +300,7 @@ Saito
 Miller
 Csaszar
 Muller
-Knott
+Grzadkowski
 Oliver
 Nixon
 Clark
@@ -304,11 +314,11 @@ Diefenbaker
 
 
        }
-      
+
        regnal_first_names = {
          Rajik
        }
-      
+
        regnal_second_names = {
          Prak
        }

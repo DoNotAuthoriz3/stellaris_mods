@@ -1,0 +1,13 @@
+# Generated species derive their names from here
+
+### AI
+
+EXT = {
+	theascended = {
+		name = "Ascended"
+		plural = "Ascended"
+		home_planet = "Agility"
+		home_system = "Agility"
+		name_list = "EXT1"
+	}
+}

@@ -1,12 +1,16 @@
 ﻿### Thirteen
-thirteen = {
+thirteen =
+{
 	### SHIPS
 
-	ship_names = {
-
-		generic = {
-			random names = {
-				Listener Watcher Observer Spy Pensword Voyuer Telescope Periscope Scope Photographer Videographer Steganographer Recorder Seer Longsight Lurker }
+	ship_names =
+	{
+		generic =
+		{
+			random names =
+			{
+				Listener Watcher Observer Spy Pensword Voyuer Telescope Periscope Scope Photographer Videographer Steganographer Recorder Seer Longsight Lurker Excavator Seeker Uncoverer Exposer Paparazzi "Eye of Cat" "Hidden View" "Watchful Eye" Sight Farsight Perceptive Perception
+			}
 		}
 
 		corvette = {
@@ -110,7 +114,7 @@ thirteen = {
 
 		generic = {
 			names = {
-				"Hidden Fortress" Enclave Burrowdeep "Place of Eyes" Tomb Witherswick End Quiet Drippingcave Nestleplace Goodhollow Watcher Witchesden Crypt "Silent Hall" Observatory Laboratory Journal Library Archives "Knowledge Lost"
+				"Hidden Fortress" Enclave Burrowdeep "Place of Eyes" Tomb Witherswick Quiet Drippingcave Nestleplace Goodhollow Watcher Witchesden Crypt "Silent Hall" Observatory Laboratory Journal Library Archives "Knowledge Lost" Warning "Place of Loss" "Quiet Hill" Sombreplace "Castle on a Hill" Nest
 			}
 		}
 

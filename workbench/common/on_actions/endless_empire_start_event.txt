@@ -1,0 +1,7 @@
+# Trigger for Endless Empire Start Event
+
+on_press_begin={
+	events = {
+		endless_empire_event.1
+	}
+}
