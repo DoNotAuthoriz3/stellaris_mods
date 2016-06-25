@@ -1,0 +1,5 @@
+﻿l_english:
+ pack_caesarea_initializer_NAME:0 "Caesarea"
+ pack_caesarea_initializer_DESC:0 "The Maynapii home system.\n\n$system_initializer_DESC$"
+ pack_lights_end_initializer_NAME:0 "Lights End"
+ pack_lights_end_initializer_DESC:0 "A Pulsar system; the home planet is the moon of a Tomb world, and shares its orbit with another habitable planet.\n\n$system_initializer_DESC$"

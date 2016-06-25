@@ -1,9 +1,0 @@
-﻿l_german:
-####################################
- # Diplomacy text
- ####################################
- 
- # General Greetings
- ANC:0 "Ancient"
- name_list_ANC1:0 "Ancient 1"
- 

@@ -1,5 +1,5 @@
-maynapii={
-	name="CAE1"
+maynapii =
+{
 	name_list="CAE1"
 	ship_prefix="CRS"
 	species_name="Maynapii"
@@ -8,16 +8,16 @@ maynapii={
 	species_adjective="Maynan"
 	species_bio="A formerly feudal society, the Caesarean Stellar Republic have cast aside the use of violence to solve problems and look towards the stars and science to find meaning. Following the teachings of their spiritual leader, the Caesar, a democratic government headed by a Chief Minister is responsible for the day to day running of Maynan society. Although some vestiges of the old ways still exist and the power of  the Caesar is considered absolute if rarely exercised, the drive to secure their place in the cosmos is absolute"
 	portrait="mam13"
-	name="Caesarean Stellar Directorate"
+	name="Caesarean Stellar Republic"
 	adjective="Caesarean"
-	government="peaceful_bureaucracy"
+	government="moral_democracy"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Mayna"
 	planet_class="pc_desert"
 	system_name="Caesarea"
-	initializer="caesarea_system"
-	graphical_culture="reptilian_01"
+	initializer="pack_caesarea_initializer"
+	graphical_culture="avian_01"
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
@@ -37,14 +37,15 @@ maynapii={
 	}
 	ruler={
 		gender=male
-		name="David Evans"
+		name="Jacob Chapman"
 		portrait="mam13"
 		texture=0
-		hair=14
+		hair=0
 		clothes=3
 		ruler_title="Chief Minister"
 		ruler_title_female="Chief Minister"
 	}
+
 	spawn_enabled=yes
 	ethic="ethic_individualist"
 	ethic="ethic_pacifist"
@@ -375,7 +376,67 @@ besnianunion =
 	trait="trait_decadent"
 }
 
-kanai={
+caesarea =
+{
+	name_list="CAE1"
+	ship_prefix="CIS"
+	species_name="Maynapii"
+	species_plural="Maynans"
+	species_class="MAM"
+	species_adjective="Maynan"
+	species_bio="An alternative to the Stellar Republic, what if the Caesar had direct control of the Maynapii?"
+	portrait="mam13"
+	name="Caesarea"
+	adjective="Caesarean"
+	government="despotic_hegemony"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Mayna"
+	planet_class="pc_desert"
+	system_name="Caesarea"
+	initializer="caesarea_system_initializer"
+	graphical_culture="avian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="thepack"
+			file="csf_1.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"black"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="John VII"
+		portrait="mam13"
+		texture=1
+		hair=0
+		clothes=0
+		ruler_title="Caesar"
+		heir_title="Grand Prince"
+		ruler_title_female="Caesarina"
+		heir_title_female="Lady"
+	}
+	spawn_enabled=no
+	ethic="ethic_collectivist"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	trait="trait_natural_sociologists"
+	trait="trait_enduring"
+	trait="trait_charismatic"
+	trait="trait_deviants"
+}
+
+kanai =
+{
 	name_list="Human"
 	ship_prefix="KSS"
 	species_name="Kanai"
@@ -427,10 +488,12 @@ kanai={
 	ethic="ethic_militarist"
 	trait="trait_strong"
 	trait="trait_intelligent"
-	trait="trait_nonadaptive"
+	trait="trait_fleeting"
+	trait="trait_decadent"
 }
 
-kerker={
+kerker =
+{
 	name_list="Human"
 	ship_prefix="KS"
 	species_name="Chosen of Kerker"
@@ -479,26 +542,134 @@ kerker={
 		heir_title_female="Bishop of Saltmarsh"
 	}
 	spawn_enabled=always
-	ethic="ethic_collectivist"
-	ethic="ethic_fanatic_spiritualist"
+	ethic="ethic_fanatic_collectivist"
+	ethic="ethic_spiritualist"
 	trait="trait_conformists"
 	trait="trait_weak"
-	trait="trait_sedentary"
-	trait="trait_adaptive"
+	trait="trait_nomadic"
 }
 
-haemat = {
+emporium =
+{
+	name_list="AVI2"
+	ship_prefix="EES"
+	species_name="Eeoxi"
+	species_plural="Eeoxii"
+	species_class="MAM"
+	species_adjective="Eeoxi"
+	species_bio="The world of Eos is characterized by its unusually elliptical orbit. For long periods of its year, the planet is distant from its star, its surface locked into an icy and dark winter. As it returns nearer to the sun, the climate warms, bringing Eos’s flora and fauna bursting to life, the tundra suddenly rich with wildflowers and herds of game. This harsh cycle has structured the evolution and history of the planet’s most notable inhabitants, the Eoxi.
+
+	The Eoxi are a diminutive mammalian species noted for their high intelligence and their cunning. Indeed, the species has among the highest cranium size to body mass of any discovered organism. Biologically, the Eoxi evolved as versatile "
+	portrait="mam3"
+	name="Eeoxi Emporium"
+	adjective="Eeoxi"
+	government="plutocratic_oligarchy"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Eeox"
+	planet_class="pc_tundra"
+	system_name="Kaleva"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_17.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"turquoise"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Fon Fen"
+		portrait="mam3"
+		texture=3
+		hair=0
+		clothes=2
+	}
+	spawn_enabled=yes
+	ethic="ethic_individualist"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_solitary"
+	trait="trait_thrifty"
+	trait="trait_industrious"
+	trait="trait_slow_breeders"
+}
+
+pilgrimage =
+{
+	name_list="AVI2"
+	ship_prefix=""
+	species_name="Yttir"
+	species_plural="Yttiri"
+	species_class="AVI"
+	species_adjective="Yttir"
+	species_bio=""
+	portrait="avi6"
+	name="Yttir Pilgrimmage"
+	adjective="Yttir"
+	government="divine_mandate"
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Irretiri"
+	planet_class="pc_ocean"
+	system_name="Qitira"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"burgundy"
+			"dark_teal"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Dalurkot"
+		portrait="avi6"
+		texture=0
+		hair=0
+		clothes=3
+	}
+	spawn_enabled=yes
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_spiritualist"
+	trait="trait_nomadic"
+	trait="trait_communal"
+}
+
+haemat =
+{
 	name_list="Human"
 	ship_prefix=""
 	species_name="Haematid"
 	species_plural="Haematids"
 	species_class="FUN"
 	species_adjective="Haematan"
-	species_bio=""
+	species_bio="The Haematids are composed of what were once distinct species: a sentient, spacefaring, foxlike mammalian race, and a highly mutagenic, psychically linked non-sentient fungus. When Haemat was colonized, the mammalians inhaled the spores of the fungus that pervaded the air; the fungus' overactive tendency to mutate caused the spores to bond to their new hosts and evoke further mutations in them. Over time, a distinct species which bred true evolved. These Haematid now consist of a psychically shared awareness and thought process; within a certain range, this allows the Haematid to form a hive mind. However, when individual components of the Haematid move too distant from their brethren, they lose access to this mind, which sometimes causes independent personalities to form."
 	portrait="fun16"
 	name="Unity Cloud of Haemat"
 	adjective="Haematan"
-	government="despotic_empire"
+	government="divine_mandate"
 	ftl=wormhole
 	weapon="tech_missiles_1"
 	planet_name="Haemat"
@@ -537,6 +708,60 @@ haemat = {
 	trait="trait_industrious"
 	trait="trait_strong"
 	trait="trait_decadent"
+}
+
+empire_of_caesar =
+{
+	name_list="CAE1"
+	ship_prefix="CIS"
+	species_name="Maynapii"
+	species_plural="Maynans"
+	species_class="MAM"
+	species_adjective="Maynan"
+	species_bio=""
+	portrait="mam13"
+	name="Empire of the Caesar"
+	adjective="Caesarean"
+	government="divine_mandate"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Mayna"
+	planet_class="pc_continental"
+	system_name="Caesarea"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="thepack"
+			file="csf_1.dds"
+		}
+		background={
+			category="backgrounds"
+			file="diagonal.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="John"
+		portrait="mam13"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Caesar"
+		heir_title="Prophet"
+		ruler_title_female="Caesar"
+	}
+	spawn_enabled=yes
+	ethic="ethic_fanatic_collectivist"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
 }
 
 ascendency = {
@@ -615,16 +840,16 @@ silence =
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_6.dds"
+			category="thepack"
+			file="60789.dds"
 		}
 		background={
 			category="backgrounds"
-			file="sinus.dds"
+			file="circle_checkered.dds"
 		}
 		colors={
-			"burgundy"
 			"indigo"
+			"burgundy"
 			"null"
 			"null"
 		}
@@ -833,12 +1058,12 @@ bosses =
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_2.dds"
+			category="thepack"
+			file="138133.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="circle_paint.dds"
 		}
 		colors={
 			"red"
@@ -1262,8 +1487,8 @@ gummies =
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_10.dds"
+			category="thepack"
+			file="384503.dds"
 		}
 		background={
 			category="backgrounds"
@@ -1399,4 +1624,166 @@ bosses =
 	trait="trait_very_strong"
 	trait="trait_slow_learners"
 	trait="trait_slow_breeders"
+}
+
+
+"Shri Communion"
+={
+	name_list="ART3"
+	ship_prefix=""
+	species_name="Scuubox"
+	species_plural="Scuubox"
+	species_class="ART"
+	species_adjective="Scuu"
+	species_bio=""
+	portrait="art1"
+	name="Shri Communion"
+	adjective="Shri"
+	government="enlightened_monarchy"
+	ftl=warp
+	weapon="tech_missiles_1"
+	planet_name="Schmoobox"
+	planet_class="pc_arid"
+	system_name="Scorrix"
+	initializer="dz_binary_initializer"
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="surveillance"
+			file="35174.dds"
+		}
+		background={
+			category="backgrounds"
+			file="blood_splatter.dds"
+		}
+		colors={
+			"grey"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Lisol"
+		portrait="art1"
+		texture=3
+		hair=0
+		clothes=0
+	}
+	spawn_enabled=yes
+	ethic="ethic_collectivist"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	trait="trait_adaptive"
+	trait="trait_communal"
+	trait="trait_fleeting"
+}
+"Yiiksaw Industry"
+={
+	name_list="FUN2"
+	ship_prefix=""
+	species_name="Boop"
+	species_plural="Boops"
+	species_class="MOL"
+	species_adjective="Boopish"
+	species_bio=""
+	portrait="mol1"
+	name="Yiiksaw Industry"
+	adjective="Industry"
+	government="peaceful_bureaucracy"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Yeks"
+	planet_class="pc_tropical"
+	system_name="Yaz"
+	initializer="dz_primitive_initializer"
+	graphical_culture="ancient_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="capitalism"
+			file="143940.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle_checkered.dds"
+		}
+		colors={
+			"orange"
+			"dark_grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Irascible"
+		portrait="mol1"
+		texture=1
+		hair=0
+		clothes=3
+	}
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	trait="trait_industrious"
+	trait="trait_conformists"
+	trait="trait_slow_learners"
+	trait="trait_sedentary"
+}
+"Usom-Bellate Federacy"
+={
+	name_list="ART1"
+	ship_prefix=""
+	species_name="Yorsci"
+	species_plural="Yorscii"
+	species_class="MAM"
+	species_adjective="Yorsciii"
+	species_bio=""
+	portrait="mam17"
+	name="Usom-Bellate Federacy"
+	adjective="Bellate"
+	government="peaceful_bureaucracy"
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="Snorepintox"
+	planet_class="pc_continental"
+	system_name="Woosh"
+	initializer="dz_primitive_initializer"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="science"
+			file="4963.dds"
+		}
+		background={
+			category="backgrounds"
+			file="mechanical_circle08.dds"
+		}
+		colors={
+			"teal"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Ubox"
+		portrait="mam17"
+		texture=3
+		hair=0
+		clothes=4
+	}
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_materialist"
+	trait="trait_talented"
+	trait="trait_quick_learners"
+	trait="trait_fleeting"
 }
