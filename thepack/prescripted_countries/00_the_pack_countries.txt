@@ -557,9 +557,7 @@ emporium =
 	species_plural="Eeoxii"
 	species_class="MAM"
 	species_adjective="Eeoxi"
-	species_bio="The world of Eos is characterized by its unusually elliptical orbit. For long periods of its year, the planet is distant from its star, its surface locked into an icy and dark winter. As it returns nearer to the sun, the climate warms, bringing Eos’s flora and fauna bursting to life, the tundra suddenly rich with wildflowers and herds of game. This harsh cycle has structured the evolution and history of the planet’s most notable inhabitants, the Eoxi.
-
-	The Eoxi are a diminutive mammalian species noted for their high intelligence and their cunning. Indeed, the species has among the highest cranium size to body mass of any discovered organism. Biologically, the Eoxi evolved as versatile "
+	species_bio="The world of Eos is characterized by its unusually elliptical orbit. For long periods of its year, the planet is distant from its star, its surface locked into an icy and dark winter. As it returns nearer to the sun, the climate warms, bringing Eos’s flora and fauna bursting to life, the tundra suddenly rich with wildflowers and herds of game. This harsh cycle has structured the evolution and history of the planet’s most notable inhabitants, the Eoxi. The Eoxi are a diminutive mammalian species noted for their high intelligence and their cunning. Indeed, the species has among the highest cranium size to body mass of any discovered organism. Biologically, the Eoxi evolved as versatile "
 	portrait="mam3"
 	name="Eeoxi Emporium"
 	adjective="Eeoxi"
