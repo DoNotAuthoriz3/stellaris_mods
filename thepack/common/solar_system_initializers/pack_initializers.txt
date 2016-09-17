@@ -1055,7 +1055,7 @@ godshome_system = {
 		{
 			name = "Fortress Minor"
 			class = "pc_tropical"
-			size = 86
+			size = 8
 
 			orbit_distance = 7
 			orbit_angle = 140

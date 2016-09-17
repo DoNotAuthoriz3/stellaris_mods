@@ -1,7 +1,5 @@
-### Caesarean Stellar Directorate
-### Created by John Carpenter 2016-04-15
-
-CAE1 = {
+﻿### Ascendency
+Ascendancy = {
    ship_names = {
      generic = {
        "Respect" "Humilitas" "Dignity" "Perseverance" "Loyalty" "Laetitia"
@@ -102,241 +100,132 @@ CAE1 = {
 "Castra XXXIV" "Castra XXXV" "Castra XXXVI" "Castra XXXVII" "Castra XXXVIII" "Castra XXXIX" "Castra XL"}
    }
 
-   fleet_names = {
-     random_names = {
-       "Claudian Fleet" "Simconian Fleet" "Dixonian Fleet" "Inglemoorian Fleet" "Whitbean Fleet" "Regnant Fleet" "Dover Fleet" "Caesarean Fleet" "Lochshire Fleet"
-     }
-     sequential_name = "%R% Task Force"
-   }
+		fleet_names = {
+			random_names = {
+				F-Cluster F-Force F-Train F-School
+			}
+			sequential_name = "%O% Legion"
+		}
 
-   ### ARMIES
-   army_names = {
-     defense_army = {
-       sequential_name = "%R% Auxilia"
-     }
+		### ARMIES
+		army_names = {
+			defense_army = {
+				sequential_name = "%O% Defense Host"
+			}
 
-     assault_army = {
-       sequential_name = "%R% Legio Res publica"
-     }
+			assault_army = {
+				sequential_name = "%O% Crusader Host"
+			}
 
-     slave_army = {
-       sequential_name = "%R% Foederati"
-     }
+			slave_army = {
+				sequential_name = "%O% Slave Host"
+			}
 
-     clone_army = {
-       sequential_name = "Legio Clonizo %R%"
-     }
+			clone_army = {
+				sequential_name = "%O% Unsouled Host"
+			}
 
-     robotic_army = {
-       sequential_name = "Legio Machinum %R%"
-     }
+			robotic_army = {
+				sequential_name = "%O% Puppet Host"
+			}
 
-     android_army = {
-       sequential_name = "Legio Robotum %R"
-     }
+			android_army = {
+				sequential_name = "%O% Demon Host"
+			}
 
-     psionic_army = {
-       sequential_name = "%R% Psychicae"
-     }
+			psionic_army = {
+				sequential_name = "%O% Witch Host"
+			}
 
-     xenomorph_army = {
-       sequential_name = "%R% Vexillatio Fera"
-     }
+			xenomorph_army = {
+				sequential_name = "%O% Beast Host"
+			}
 
-     gene_warrior_army = {
-       sequential_name = "%R% Legio Muto"
-     }
-   }
+			gene_warrior_army = {
+				sequential_name = "%O% Goliad Host"
+			}
+		}
 
-   planet_names = {
+			### PLANETS
 
-     # Names that can be assigned to all planet types
-     generic = {
-       names = {
-         "Sherman" "Junius" "Felix" "Agrippus" "Trajan" "Brittanicus" "Drusus" "Livia" "Germanicus" "William's Planet" "Marie's Planet" "Herna's Planet" "Alfons' Planet" "Iohnnes" "Postumus" "Planitia" "Augustus" "Cicero" "Julius" "Gaius" "Octavius" "Antonia" "Marcellus" "Gemellus" "Messalina" "Valerius" "Juvenal" "Pliny" "Gibbon" "Virgil" "Carolus" "Talbot" "Hudson" "Lochshire" "Colborne" "Patrick's World" "Carpenteria" "Davenport" "Casier" "Dixon" "Whitby" "Pinehurst" "Eden" "Bay" "Guelph" "Kensington" "Walsingham" "Barton" "Sunninghills" "Kenmore" "Berlin" "Parkland" "Inglemoor" "Dover" "Cole" "Borden" "Crothersgrad" "Pos" "Hood" "Charters" "Chapman" "Nova Caesarea" "Nova Mayna" "Crothersgrad" "Moningrad" "Keepence" "Simcoe" "Winchester" "Marbury"
-       }
-     }
+			planet_names = {
 
-     pc_desert = {
-       names = {
+				generic = {
+					names = {
+						"Place Of Rest" "Host Of Righteous" Beacon Bastion "Ft. Victorious" Newhome Lifesfont "Place Of Blood" "Ft. Vigor" Saintsrest Farwatch Sciencetemple Frozen-Spark Highvalley "Empty Forest" Forgotten-Camp Fifth-Cave Seventeeth Eighteenth Place-Of-High Light-In-Shadow "Death Of Gods"
+					}
+				}
 
-       }
-     }
+				pc_desert = {
+					names = {
+						Rest-Of-Wicked Forsaken Sooth Desert Sea-Of-Dirt Watersbane Icebane Fogless Abandon
+					}
+				}
 
-     pc_arid = {
-       names = {
+				pc_tropical = {
+					names = {
+						Sleepsend Illportend Unlearned-Hallow Oversilent Listlessplace Cursedslumber
+					}
+				}
 
-       }
-     }
+				pc_arid = {
+					names = {
+						Guildsplace Gruffhome Wellbegotten Dustball Landsend
+					}
+				}
 
-     pc_tropical = {
-       names = {
-       }
-     }
+				pc_continental = {
+					names = {
+						Fire-Below Newhome Host-Of-Many Seven Purpose Seas-Of-Light
+					}
+				}
 
-     pc_continental = {
-       names = {
-       }
-     }
+				pc_ocean = {
+					names = {
+						Fields-Of-Sky Firesbane Deepfountain Ailsfont Godstear
+					}
+				}
 
-     pc_ocean = {
-       names = {
-       }
-     }
+				pc_tundra = {
+					names = {
+						Dustball Sorrowsloss Beginning End New-Eighteenth
+					}
+				}
 
-     pc_tundra = {
-       names = {
-       }
-     }
+				pc_arctic = {
+					names = {
+						Place-Of-Snow Peace Serenity Beauty Neversfear
+					}
+				}
 
-     pc_arctic = {
-       names = {
-       }
-     }
-   }
+			}
 
+			### CHARACTERS
+			character_names = {
+				default = {
+				# A complete name
+				full_names = {
+						Saintsin Sancrosact Shadeshine Darkenlight Heart Bringer-Of-Truth Symple
+						Voice Selfful Brightshadow Candle-In-Day Maker-Of-Home Peopleshero Seneschal
+						Guillotine Piker Clayshaper Characterful Journey Selfmaker Font-Of-Sight
+						Seer Vision-Of-Self
+				}
 
-   ### CHARACTERS
+				# Always combined with a second name
+				first_names = {
+				}
 
-   character_names = {
-     default = {
-       # A complete name
-       full_names = {
-       }
+				# Always combined with a first name
+				second_names = {
+				}
 
-       # Always combined with a second name
-       first_names = {
-        Mada
-David
-Derek
-John
-Matthew
-Michael
-Alexander
-Tynan
-Andrew
-Aaron
-Justin
-Owen
-Michelle
-Carl
-Casey
-Lauren
-Andreas
-Roger
-Evelyn
-Renee
-Edward
-Henry
-Gareth
-Donald
-Kevin
-Esther
-Corey
-Daphne
-Cosmo
-Angelo
-Scott
-Nadia
-Jacob
-Giles
-James
-Debbie
-Wesley
-Brock
-Hailey
-Paxton
-Kimberly
-Herna
-Curtis
-William
-Robert
-Jarrett
-Ryan
-Niall
-Courtney
-Aisha
-Jeremy
-Nate
-Joe
-Andrea
-Dominica
-Jane
-Travis
-Jamie
-Daniel
-Ali
+				regnal_first_names = {
+						Deep Armoured Delve Dusk Withheld Monster Never Nether
+				}
 
-       }
-
-       # Always combined with a first name
-       second_names = {
-Carpenter
-Casier
-Noonan
-Hudson
-Evans
-Pos
-Jaffery
-Walsh
-Welch
-Charters
-Crothers
-Condie
-Helmer
-Gingrich
-Redfield
-Kennedy
-Bumgarner
-Casselman
-Keepence
-Scott
-Timpf
-Broker
-Chapman
-Holmes
-Pringle
-Fischer
-Dryden
-Chupper
-Tomovcik
-Hayden-Halinen
-Moning
-Fry
-Bush
-Scouten
-Slaney
-DeKonick
-Gaertner
-Srok
-Vandepoele
-Deelen
-Saito
-Miller
-Csaszar
-Muller
-Grzadkowski
-Oliver
-Nixon
-Clark
-Rossi
-Garwood
-Yoshida
-Bourque
-Maguire
-Burke
-Diefenbaker
-
-
-       }
-
-       regnal_first_names = {
-         Rajik
-       }
-
-       regnal_second_names = {
-         Prak
-       }
-     }
-   }
+				regnal_second_names = {
+						Heart
+				}
+			}
+		}
 }

@@ -162,57 +162,59 @@ commonwealth =
 	trait="trait_deviants"
 }
 
-advocacy = {
-	name_list="Advocacy"
+unseelie =
+{
+	name_list="PLANT"
 	ship_prefix=""
-	species_name="Ah'Ren"
-	species_plural="Ae'Ren"
-	species_class="ART"
-	species_adjective="Aerenni"
-	species_bio="The Ah'Ren  are a deeply individualistic and self-reliant people. Evolved in the temperate canyons of their tectonically active world, the Ah'Ren formed scattered, tightly-knit tribal communities which were highly independent. The advent of technology and industrialization awakened the Ah'Ren to the need for monolithic organization to accomplish public works and defense of the state. Most responsible Ah'Ren offer a tithe to the Advocacy they have formed, recognizing that even if they do not directly benefit from any of its services, what benefits the species and the economy does benefit them indirectly."
-	portrait="art17"
-	name="Advocacy"
-	adjective="Advocate"
-	government="subconscious_consensus"
+	species_name="Fey-Oni"
+	species_plural="Fey-Oni"
+	species_class="PLANT"
+	species_adjective="Fey-Oni"
+	species_bio="The Unseelie Courts rule over all Fey-Oni. The Fey-Oni are a capricious and fickle people. Originally governed by a large number of feudal courts, power struggles amongst the larger kingdoms led to a unified court, presided over by a Grand Lord. Each of the ruling noble houses of the constituent states has a number of electoral votes to select the next Grand Lord from amongst their number. The common Fey-Oni are legally serfs, but advancing intellectual movements and expectation of sentient rights has significantly emancipated them. The average Fey-Oni still belongs to a lord, but owes him very limited fealty--taxes, a period of service in the military, and similar duties."
+	portrait="pla2"
+	name="Unseelie Court"
+	adjective="Unseelie"
+	government="theocratic_oligarchy"
 	ftl=wormhole
-	weapon="tech_lasers_1"
-	planet_name="Little One"
-	planet_class="pc_tundra"
-	system_name="Godshome"
-	initializer="godshome_system"
-	graphical_culture="pirate_01"
-	city_graphical_culture="ancient_01"
+	weapon="tech_missiles_1"
+	planet_name="Shoontax"
+	planet_class="pc_arctic"
+	system_name="Fiiofaar"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_12.dds"
+			category="ornate"
+			file="flag_ornate_3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="pattern_01.dds"
+			file="vertical.dds"
 		}
 		colors={
-			"dark_grey"
-			"grey"
+			"dark_green"
+			"red"
 			"null"
 			"null"
 		}
 	}
 	ruler={
 		gender=male
-		name="Monster"
-		portrait="art17"
-		texture=3
+		name="Cellish"
+		portrait="pla2"
+		texture=1
 		hair=0
 		clothes=0
-		ruler_title="Coordinator"
+		ruler_title="Grand Lord of All Courts"
 	}
-	spawn_enabled=no
-	ethic="ethic_fanatic_individualist"
-	ethic="ethic_materialist"
-	trait="trait_nonadaptive"
-	trait="trait_venerable"
-	trait="trait_slow_breeders"
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	trait="trait_extremely_adaptive"
+	trait="trait_weak"
+	trait="trait_solitary"
 }
 
 shurik = {
@@ -762,6 +764,114 @@ empire_of_caesar =
 	ethic="ethic_spiritualist"
 }
 
+meritocracy =
+{
+	name_list="FUN1"
+	ship_prefix=""
+	species_name="Oof"
+	species_plural="Oofs"
+	species_class="ART"
+	species_adjective="Oof"
+	species_bio="The Wallops did the pragmatic thing when he masses rose to overthrow the landed aristocracy: they formed a government of checks and balances. The legislative branch is operated by a senate of inherited positions among the aristocracy; the executive branch is operated by democratically elected agents of the people; the judiciary is populated by choice of a Council of Ability, which administers aptitude tests to determine each Wallop's greatest ability. The immense success and clear superiority of the judicial meritocracy resulted in an eventual erosion of power in the legislative and executive branches. Their members are now merely figureheads that rubber-stamp the imperatives of the meritocratically determined judiciary."
+	portrait="art16"
+	name="Meritocracy"
+	adjective="Meritorious"
+	government="science_directorate"
+	ftl=warp
+	weapon="tech_missiles_1"
+	planet_name="Mother"
+	planet_class="pc_arctic"
+	system_name="Shibboleet"
+	initializer="dz_binary_initializer"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="blood_splatter02.dds"
+		}
+		colors={
+			"red"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Easy"
+		portrait="art16"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_enabled=yes
+	ethic="ethic_collectivist"
+	ethic="ethic_pacifist"
+	ethic="ethic_materialist"
+	trait="trait_intelligent"
+	trait="trait_very_strong"
+	trait="trait_nonadaptive"
+	trait="trait_sedentary"
+}
+
+advocacy = {
+	name_list="Advocacy"
+	ship_prefix=""
+	species_name="Ah'Ren"
+	species_plural="Ae'Ren"
+	species_class="ART"
+	species_adjective="Aerenni"
+	species_bio="The Ah'Ren  are a deeply individualistic and self-reliant people. Evolved in the temperate canyons of their tectonically active world, the Ah'Ren formed scattered, tightly-knit tribal communities which were highly independent. The advent of technology and industrialization awakened the Ah'Ren to the need for monolithic organization to accomplish public works and defense of the state. Most responsible Ah'Ren offer a tithe to the Advocacy they have formed, recognizing that even if they do not directly benefit from any of its services, what benefits the species and the economy does benefit them indirectly."
+	portrait="art17"
+	name="Advocacy"
+	adjective="Advocate"
+	government="subconscious_consensus"
+	ftl=wormhole
+	weapon="tech_lasers_1"
+	planet_name="Little One"
+	planet_class="pc_tundra"
+	system_name="Godshome"
+	initializer="godshome_system"
+	graphical_culture="pirate_01"
+	city_graphical_culture="ancient_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_12.dds"
+		}
+		background={
+			category="backgrounds"
+			file="pattern_01.dds"
+		}
+		colors={
+			"dark_grey"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Monster"
+		portrait="art17"
+		texture=3
+		hair=0
+		clothes=0
+		ruler_title="Coordinator"
+	}
+	spawn_enabled=no
+	ethic="ethic_fanatic_individualist"
+	ethic="ethic_materialist"
+	trait="trait_nonadaptive"
+	trait="trait_venerable"
+	trait="trait_slow_breeders"
+}
+
 ascendency = {
 	name_list="Advocacy"
 	ship_prefix=""
@@ -820,7 +930,7 @@ silence =
 	name_list="MOL2"
 	ship_prefix=""
 	species_name="Ae Ren"
-	species_plural="Ae Ren"
+	species_plural="Ae Rens"
 	species_class="MAM"
 	species_adjective="Aeoren"
 	species_bio="They are quiet."
@@ -979,60 +1089,6 @@ gummies =
 	trait="trait_slow_learners"
 }
 
-meritocracy =
-{
-	name_list="FUN3"
-	ship_prefix=""
-	species_name="Astute"
-	species_plural="Astutes"
-	species_class="ART"
-	species_adjective="Astutti"
-	species_bio="The Astutes did the pragmatic thing when he masses rose to overthrow the landed aristocracy: they formed a government of checks and balances. The legislative branch is operated by a senate of inherited positions among the aristocracy; the executive branch is operated by democratically elected agents of the people; the judiciary is populated by choice of a Council of Ability, which administers aptitude tests to determine each Astute's greatest ability. The immense success and clear superiority of the judicial meritocracy resulted in an eventual erosion of power in the legislative and executive branches. Their members are now merely figureheads that rubber-stamp the imperatives of the meritocratically determined judiciary."
-	portrait="art16"
-	name="Meritocracy"
-	adjective="Meritocratic"
-	government="science_directorate"
-	ftl=wormhole
-	weapon="tech_missiles_1"
-	planet_name="Snorcks"
-	planet_class="pc_tropical"
-	system_name="Blanchpoint"
-	initializer=""
-	graphical_culture="molluscoid_01"
-	city_graphical_culture="fungoid_01"
-	empire_flag={
-		icon={
-			category="domination"
-			file="domination_20.dds"
-		}
-		background={
-			category="backgrounds"
-			file="double_hemispheres.dds"
-		}
-		colors={
-			"black"
-			"grey"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=male
-		name="Li Sou"
-		portrait="art16"
-		texture=0
-		hair=0
-		clothes=0
-		ruler_title="Grand Judge"
-	}
-	spawn_enabled=yes
-	ethic="ethic_collectivist"
-	ethic="ethic_pacifist"
-	ethic="ethic_materialist"
-	trait="trait_extremely_adaptive"
-	trait="trait_weak"
-}
-
 bosses =
 {
 	name_list="MOL2"
@@ -1140,7 +1196,8 @@ cothul =
 	trait="trait_slow_breeders"
 }
 
-zaxxoid = {
+zaxxoid =
+{
 	name_list="ART2"
 	ship_prefix=""
 	species_name="Zaxxoid"
@@ -1352,281 +1409,8 @@ orass = {
 	trait="trait_intelligent"
 }
 
-silence =
+communion =
 {
-	name_list="MOL2"
-	ship_prefix=""
-	species_name="Ae Ren"
-	species_plural="Ae Ren"
-	species_class="MAM"
-	species_adjective="Aeoren"
-	species_bio="They are quiet."
-	portrait="mam3"
-	name="Silence"
-	adjective="Silence"
-	government="enlightened_monarchy"
-	ftl=hyperdrive
-	weapon="tech_lasers_1"
-	planet_name="Iphon"
-	planet_class="pc_ocean"
-	system_name="Ilmost"
-	initializer=""
-	graphical_culture="avian_01"
-	city_graphical_culture="fungoid_01"
-	empire_flag={
-		icon={
-			category="zoological"
-			file="flag_zoological_6.dds"
-		}
-		background={
-			category="backgrounds"
-			file="sinus.dds"
-		}
-		colors={
-			"burgundy"
-			"indigo"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=male
-		name="Snugglax"
-		portrait="mam3"
-		texture=5
-		hair=0
-		clothes=3
-	}
-	spawn_enabled=yes
-	ethic="ethic_xenophile"
-	ethic="ethic_pacifist"
-	ethic="ethic_spiritualist"
-	trait="trait_solitary"
-	trait="trait_quick_learners"
-	trait="trait_charismatic"
-	trait="trait_enduring"
-}
-
-heebiejeebies =
-{
-	name_list="MOL1"
-	ship_prefix=""
-	species_name="Pluman"
-	species_plural="Pluman"
-	species_class="FUN"
-	species_adjective="Pluman"
-	species_bio="Welcome, friend; be here at home. Come now near; you needn't roam. Pluman cares; Pluman holds close."
-	portrait="fun16"
-	name="Heebie-Jeebie Paradise"
-	adjective="Heebie-Jeebie"
-	government="despotic_empire"
-	ftl=wormhole
-	weapon="tech_lasers_1"
-	planet_name="Sorbjax"
-	planet_class="pc_arid"
-	system_name="Moosckelox"
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="fungoid_01"
-	empire_flag={
-		icon={
-			category="domination"
-			file="domination_18.dds"
-		}
-		background={
-			category="backgrounds"
-			file="stripes.dds"
-		}
-		colors={
-			"red"
-			"dark_blue"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=male
-		name="Urbgjet"
-		portrait="fun16"
-		texture=1
-		hair=0
-		clothes=0
-		ruler_title="Prime"
-		heir_title="Adjunct"
-	}
-	spawn_enabled=yes
-	ethic="ethic_fanatic_collectivist"
-	ethic="ethic_xenophile"
-	trait="trait_communal"
-	trait="trait_conformists"
-	trait="trait_slow_learners"
-}
-
-gummies =
-{
-	name_list="ART3"
-	ship_prefix=""
-	species_name="Gum"
-	species_plural="Gummies"
-	species_class="ART"
-	species_adjective="Gummie"
-	species_bio="The Gummie Bulwark exists to protect the safety and survival of all Gummies everywhere with extreme prejudice. The Bulwark is undoubtedly an expression of the will of the Gummie people, who themselve vote in to office the ruling class to fairly represent them. Every action taken by the Bulwark must surely have the approval of each Gum, who may dislike certain actions, but will most definitely comprehend and agree with their necessity."
-	portrait="art13"
-	name="Gummie Bulwark"
-	adjective="Bulwahrk"
-	government="military_republic"
-	ftl=warp
-	weapon="tech_missiles_1"
-	planet_name="Motherworld"
-	planet_class="pc_tundra"
-	system_name="Fortress One"
-	initializer=""
-	graphical_culture="reptilian_01"
-	city_graphical_culture="molluscoid_01"
-	empire_flag={
-		icon={
-			category="thepack"
-			file="384503.dds"
-		}
-		background={
-			category="backgrounds"
-			file="stripe.dds"
-		}
-		colors={
-			"burgundy"
-			"grey"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Mux"
-		portrait="art13"
-		texture=3
-		hair=0
-		clothes=0
-		ruler_title_female="Grand Gumby"
-	}
-	spawn_enabled=yes
-	ethic="ethic_fanatic_militarist"
-	ethic="ethic_materialist"
-	trait="trait_resilient"
-	trait="trait_conformists"
-	trait="trait_slow_learners"
-}
-
-meritocracy =
-{
-	name_list="FUN3"
-	ship_prefix=""
-	species_name="Astute"
-	species_plural="Astutes"
-	species_class="ART"
-	species_adjective="Astutti"
-	species_bio="The Astutes did the pragmatic thing when he masses rose to overthrow the landed aristocracy: they formed a government of checks and balances. The legislative branch is operated by a senate of inherited positions among the aristocracy; the executive branch is operated by democratically elected agents of the people; the judiciary is populated by choice of a Council of Ability, which administers aptitude tests to determine each Astute's greatest ability. The immense success and clear superiority of the judicial meritocracy resulted in an eventual erosion of power in the legislative and executive branches. Their members are now merely figureheads that rubber-stamp the imperatives of the meritocratically determined judiciary."
-	portrait="art16"
-	name="Meritocracy"
-	adjective="Meritocratic"
-	government="science_directorate"
-	ftl=wormhole
-	weapon="tech_missiles_1"
-	planet_name="Snorcks"
-	planet_class="pc_tropical"
-	system_name="Blanchpoint"
-	initializer=""
-	graphical_culture="molluscoid_01"
-	city_graphical_culture="fungoid_01"
-	empire_flag={
-		icon={
-			category="domination"
-			file="domination_20.dds"
-		}
-		background={
-			category="backgrounds"
-			file="double_hemispheres.dds"
-		}
-		colors={
-			"black"
-			"grey"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=male
-		name="Li Sou"
-		portrait="art16"
-		texture=0
-		hair=0
-		clothes=0
-		ruler_title="Grand Judge"
-	}
-	spawn_enabled=yes
-	ethic="ethic_collectivist"
-	ethic="ethic_pacifist"
-	ethic="ethic_materialist"
-	trait="trait_extremely_adaptive"
-	trait="trait_weak"
-}
-
-bosses =
-{
-	name_list="MOL2"
-	ship_prefix=""
-	species_name="Hugeo Boss"
-	species_plural="Hugeo Bosses"
-	species_class="MOL"
-	species_adjective="Boss"
-	species_bio="The Hugeo Bosses have massive forms, which require an inordinate amount of food to maintain. They struggled against starvation for an exceptionally long time; this embued them with an intractible appreciation of survival of the fittest, and to this day they cull the weak from their society."
-	portrait="mol16"
-	name="Boss Confederation"
-	adjective="Boss"
-	government="plutocratic_oligarchy"
-	ftl=hyperdrive
-	weapon="tech_mass_drivers_1"
-	planet_name="Uush"
-	planet_class="pc_arctic"
-	system_name="Hellfire"
-	initializer=""
-	graphical_culture="fungoid_01"
-	city_graphical_culture="avian_01"
-	empire_flag={
-		icon={
-			category="domination"
-			file="domination_2.dds"
-		}
-		background={
-			category="backgrounds"
-			file="circle.dds"
-		}
-		colors={
-			"red"
-			"orange"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Gelrocks"
-		portrait="mol16"
-		texture=1
-		hair=0
-		clothes=0
-	}
-	spawn_enabled=yes
-	ethic="ethic_individualist"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	trait="trait_very_strong"
-	trait="trait_slow_learners"
-	trait="trait_slow_breeders"
-}
-
-
-"Shri Communion"
-={
 	name_list="ART3"
 	ship_prefix=""
 	species_name="Scuubox"
@@ -1648,7 +1432,7 @@ bosses =
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="surveillance"
+			category="thepack"
 			file="35174.dds"
 		}
 		background={
@@ -1678,8 +1462,9 @@ bosses =
 	trait="trait_communal"
 	trait="trait_fleeting"
 }
-"Yiiksaw Industry"
-={
+
+boops =
+{
 	name_list="FUN2"
 	ship_prefix=""
 	species_name="Boop"
@@ -1701,7 +1486,7 @@ bosses =
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="capitalism"
+			category="thepack"
 			file="143940.dds"
 		}
 		background={
@@ -1723,7 +1508,7 @@ bosses =
 		hair=0
 		clothes=3
 	}
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
@@ -1732,14 +1517,15 @@ bosses =
 	trait="trait_slow_learners"
 	trait="trait_sedentary"
 }
-"Usom-Bellate Federacy"
-={
+
+yourscii =
+{
 	name_list="ART1"
 	ship_prefix=""
-	species_name="Yorsci"
-	species_plural="Yorscii"
+	species_name="Wopper"
+	species_plural="Woppers"
 	species_class="MAM"
-	species_adjective="Yorsciii"
+	species_adjective="Wopper"
 	species_bio=""
 	portrait="mam17"
 	name="Usom-Bellate Federacy"
@@ -1755,7 +1541,7 @@ bosses =
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="science"
+			category="thepack"
 			file="4963.dds"
 		}
 		background={

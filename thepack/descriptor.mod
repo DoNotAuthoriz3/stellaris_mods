@@ -1,4 +1,4 @@
-name="thepack"
+name="The Pack - *.*"
 path="mod\stellaris_mods\thepack"
 tags={
 	"Species"

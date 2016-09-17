@@ -1,15 +1,11 @@
-﻿### Advocacy
-### Created by Aaron Fischer
+### Advocacy
 Advocacy = {
-	selectable = yes
+	randomized = no
 
-	ship_names = {
+	ship_names =	{
 		generic = {
 		}
 
-		corvette = {
-			C-WaterBurn C-Fire-From-High C-Avenger C-Revelator C-Punisher C-Faith C-Corrector C-Blight C-Smiting
-		}
 
 		destroyer = {
 			D-Burnt-Ice D-Gallows D-Offering D-Lightning-Strike D-Ivory-Turret D-Awe D-Light
@@ -37,7 +33,7 @@ Advocacy = {
 
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { sequential_name = "%0% Gate-To-Void"  }
+		wormhole_station = { sequential_name = "%O% Gate-To-Void"  }
 		terraform_station = { }
 		observation_station = { }
 		outpost_station = {
@@ -50,130 +46,132 @@ Advocacy = {
 		military_station_large = {}
 	}
 
-	fleet_names = {
-		random_names = {
-			F-Cluster F-Force F-Train F-School
-		}
-		sequential_name = "%O% Legion"
-	}
-
-	### ARMIES
-	army_names = {
-		defense_army = {
-			sequential_name = "%O% Defense Host"
+		fleet_names = {
+			random_names = {
+				F-Cluster F-Force F-Train F-School
+			}
+			sequential_name = "%O% Legion"
 		}
 
-		assault_army = {
-			sequential_name = "%O% Crusader Host"
-		}
+		### ARMIES
+		army_names = {
+			defense_army = {
+				sequential_name = "%O% Defense Host"
+			}
 
-		slave_army = {
-			sequential_name = "%O% Slave Host"
-		}
+			assault_army = {
+				sequential_name = "%O% Crusader Host"
+			}
 
-		clone_army = {
-			sequential_name = "%O% Unsouled Host"
-		}
+			slave_army = {
+				sequential_name = "%O% Slave Host"
+			}
 
-		robotic_army = {
-			sequential_name = "%O% Puppet Host"
-		}
+			clone_army = {
+				sequential_name = "%O% Unsouled Host"
+			}
 
-		android_army = {
-			sequential_name = "%O% Demon Host"
-		}
+			robotic_army = {
+				sequential_name = "%O% Puppet Host"
+			}
 
-		psionic_army = {
-			sequential_name = "%O% Witch Host"
-		}
+			android_army = {
+				sequential_name = "%O% Demon Host"
+			}
 
-		xenomorph_army = {
-			sequential_name = "%O% Beast Host"
-		}
+			psionic_army = {
+				sequential_name = "%O% Witch Host"
+			}
 
-		gene_warrior_army = {
-			sequential_name = "%O% Goliad Host"
-		}
-	}
+			xenomorph_army = {
+				sequential_name = "%O% Beast Host"
+			}
 
-	### PLANETS
-
-	planet_names = {
-
-		generic = {
-			names = {
-				"Place Of Rest" "Host Of Righteous" Beacon Bastion "Ft. Victorious" Newhome Lifesfont "Place Of Blood" "Ft. Vigor" Saintsrest Farwatch Sciencetemple Frozen-Spark Highvalley "Empty Forest" Forgotten-Camp Fifth-Cave Seventeeth Eighteenth Place-Of-High Light-In-Shadow "Death Of Gods"
+			gene_warrior_army = {
+				sequential_name = "%O% Goliad Host"
 			}
 		}
 
-		pc_desert = {
-			names = {
-				Rest-Of-Wicked Forsaken Sooth Desert Sea-Of-Dirt Watersbane Icebane Fogless Abandon
+			### PLANETS
+
+			planet_names = {
+
+				generic = {
+					names = {
+						"Place Of Rest" "Host Of Righteous" Beacon Bastion "Ft. Victorious" Newhome Lifesfont "Place Of Blood" "Ft. Vigor" Saintsrest Farwatch Sciencetemple Frozen-Spark Highvalley "Empty Forest" Forgotten-Camp Fifth-Cave Seventeeth Eighteenth Place-Of-High Light-In-Shadow "Death Of Gods"
+					}
+				}
+
+				pc_desert = {
+					names = {
+						Rest-Of-Wicked Forsaken Sooth Desert Sea-Of-Dirt Watersbane Icebane Fogless Abandon
+					}
+				}
+
+				pc_tropical = {
+					names = {
+						Sleepsend Illportend Unlearned-Hallow Oversilent Listlessplace Cursedslumber
+					}
+				}
+
+				pc_arid = {
+					names = {
+						Guildsplace Gruffhome Wellbegotten Dustball Landsend
+					}
+				}
+
+				pc_continental = {
+					names = {
+						Fire-Below Newhome Host-Of-Many Seven Purpose Seas-Of-Light
+					}
+				}
+
+				pc_ocean = {
+					names = {
+						Fields-Of-Sky Firesbane Deepfountain Ailsfont Godstear
+					}
+				}
+
+				pc_tundra = {
+					names = {
+						Dustball Sorrowsloss Beginning End New-Eighteenth
+					}
+				}
+
+				pc_arctic = {
+					names = {
+						Place-Of-Snow Peace Serenity Beauty Neversfear
+					}
+				}
+
+			}
+
+			### CHARACTERS
+			character_names = {
+				default = {
+				# A complete name
+				full_names = {
+						Saintsin Sancrosact Shadeshine Darkenlight Heart Bringer-Of-Truth Symple
+						Voice Selfful Brightshadow Candle-In-Day Maker-Of-Home Peopleshero Seneschal
+						Guillotine Piker Clayshaper Characterful Journey Selfmaker Font-Of-Sight
+						Seer Vision-Of-Self
+				}
+
+				# Always combined with a second name
+				first_names = {
+				}
+
+				# Always combined with a first name
+				second_names = {
+				}
+
+				regnal_first_names = {
+						Deep Armoured Delve Dusk Withheld Monster Never Nether
+				}
+
+				regnal_second_names = {
+						Heart
+				}
 			}
 		}
-
-		pc_tropical = {
-			names = {
-				Sleepsend Illportend Unlearned-Hallow Oversilent Listlessplace Cursedslumber
-			}
-		}
-
-		pc_arid = {
-			names = {
-				Guildsplace Gruffhome Wellbegotten Dustball Landsend
-			}
-		}
-
-		pc_continental = {
-			names = {
-				Fire-Below Newhome Host-Of-Many Seven Purpose Seas-Of-Light
-			}
-		}
-
-		pc_ocean = {
-			names = {
-				Fields-Of-Sky Firesbane Deepfountain Ailsfont Godstear
-			}
-		}
-
-		pc_tundra = {
-			names = {
-				Dustball Sorrowsloss Beginning End New-Eighteenth
-			}
-		}
-
-		pc_arctic = {
-			names = {
-				Place-Of-Snow Peace Serenity Beauty Neversfear
-			}
-		}
-
-	}
-
-	### CHARACTERS
-
-	character_names = {
-		default = {
-			# A complete name
-			full_names = {
-				Saintsin Sancrosact Shadeshine Darkenlight Heart Bringer-Of-Truth Symple Voice Selfful Brightshadow Candle-In-Day Maker-Of-Home Peopleshero Seneschal Guillotine Piker Clayshaper Characterful Journey Selfmaker Font-Of-Sight Seer Vision-Of-Self
-			}
-
-			# Always combined with a second name
-			first_names = {
-			}
-
-			# Always combined with a first name
-			second_names = {
-			}
-
-			regnal_first_names = {
-				Deep Armoured Delve Dusk Withheld Monster Never Nether
-			}
-
-			regnal_second_names = {
-				Heart
-			}
-		}
-	}
 }
