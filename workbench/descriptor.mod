@@ -1,6 +1,6 @@
-name="thepack1.2"
-path="mod\thepacks\thepack1.2"
+name="_Workbench"
+path="mod\stellaris_mods\workbench"
 tags={
 	"Species"
 }
-supported_version="1.2.*"
+supported_version="1.3.*"

@@ -1,7 +1,6 @@
-name="Endless"
-path="mod/endless"
+name="Endless - *.*"
+path="mod/stellaris_mods/endless"
 tags={
 	"Species"
-	"Technologies"
 }
-supported_version="1.2.0"
+supported_version="1.3.*"

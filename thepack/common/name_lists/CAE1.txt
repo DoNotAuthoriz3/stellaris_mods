@@ -6,7 +6,7 @@ CAE1 = {
      generic = {
        "Respect" "Humilitas" "Dignity" "Perseverance" "Loyalty" "Laetitia"
        "Service" "Persoon" "Gravitas" "Faith" "Hope" "Aequitas" "Abundantia" "Fides" "Concordia" "Iustitia" "Liberalitas" "Nobilitas" "Ops" "Virtus" "Providentia" "Salus"
-       "Charity" "Justice" "Prudence" "Temperance" "Ser Pounce" "Uberitas" "Pudicita"
+       "Charity" "Justice" "Prudence" "Temperance" "Ser Pounce" "Uberitas" "Pudicita""Ingenuity" "Steadfast"
        "Valor" "Courage" "Honor" "Liberality" "Diligence"  "Comitas" "Auctoritas" "Firmitas" "Frugalitas" "Pietas" "Salubritas" "Veritas"
      }
 
@@ -33,21 +33,21 @@ CAE1 = {
      destroyer = {
        "Elgin" "Lawfield" "Valla" "Nixon" "Clark" "Ardor" "Birt" "MacDonald"  "Smith" "Stone" "DeBock" "DeVoght" "Ranson" "Caroll" "Katz" "Dorr" "Chusroskie" "Muller" "Kucharczyk"
        "Guzic" "Rossi" "LeBeer" "Kosar" "Srok" "Thomas Smith" "Holliday" "Hutchings" "Saito" "Garwood"
-       "Colwell" "North" "Broker" "Oliver" "Gartner" "Princess Jill"
+       "Colwell" "North" "Broker" "Oliver" "Gartner" "Princess Jill" "Dover Mills" Etobicoke Agfa Toronto
        "Allen" "Duval" "Jacob" "Grzadkowski" "Anderson" "St. Pierre" "Renee Tomovcik"
-       "Davis" "Umunna" "Molko" "Mason" "Soye" "Yoshida" "Laprade" "Burke"
+       "Davis" "Umunna" "Molko" "Mason" "Soye" "Yoshida" "Laprade" "Burke" "Napoleon"
      }
 
      cruiser = {
        "Matthew Chapman" "Alexander Condie" "Andreas Helmer" "Lauren Helmer" "Roger G. Bumgarner" "Crothersgrad" "Sifton"
        "Michael Keepence" "Owen Casselman" "Edward Soye" "Adam Timpf" "Kevin Scott" "Henry Smith" "Baron Berlin"
        "Corey Fry" "Alexander Welsh" "Countess of Eden" "Curtis Broker" "Evans" "Pos" "Charters" "Walsh" "Lo Dico" "Gaertner" "Edinburgh" "Port Dover" "St. Laurence" "John Graves Simcoe"
-       "Welch" "DeVos" "Deelen" "Conrad" "Troy" "Colborne" "Kyle Hood" "Kinch" "Nation Hahn"
+       "Welch" "DeVos" "Deelen" "Conrad" "Troy" "Colborne" "Kyle Hood" "Kinch" "Nation Hahn" "President Yoshida" "Takeshi Kimeda"
        "Cooper Eaton" "Retnah" "Ali Jaffrey" "Derek Gingrich" "Kevin Moning" "Baron Parkland" "Maguire"
      }
 
      battleship = {
-       "Rota-Rajik" "Jubellius" "John Carl" "Sherman" "Duke of Talbot" "Debbie Alice" "Matthew Chapman"
+       "Rota-Rajik" "Jubellius" "John Carl" "Sherman" "Duke of Talbot" "Debbie Alice" "Matthew Chapman" Ariscia "Emperor Claudius" Aspire "J. Colin Carpenter" Jacobi
        "Duchess of Hudson" "Duchess of Caesarea" "Duchess of the Rhine" "Baroness of Summerhill" "Countess of Eden"
        "Prince Brock" "Princess Hailey" "Prince Paxton" "Sectron" "Will of the Caesar" "Noonan" "Alexander Condie"
        "Earl of Guelph" "Prince Robert" "William Robert" "Daisy Marie" "Verhaeghe" "Carpenter"
@@ -210,6 +210,8 @@ CAE1 = {
 David
 Derek
 John
+"John Wesley"
+"Jean-Francois"
 Matthew
 Michael
 Alexander
@@ -266,6 +268,10 @@ Travis
 Jamie
 Daniel
 Ali
+Colin
+Norma
+Sylvia
+Sifton
 
        }
 
@@ -325,7 +331,13 @@ Yoshida
 Bourque
 Maguire
 Burke
-Diefenbaker
+Laprade
+"St. Pierre"
+Castillo
+Gatito
+Cooper
+Robertson
+
 
 
        }
