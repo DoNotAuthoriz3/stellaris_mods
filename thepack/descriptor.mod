@@ -3,4 +3,4 @@ path="mod\stellaris_mods\thepack"
 tags={
 	"Species"
 }
-supported_version="1.3.*"
+supported_version="1.5.0"

@@ -19,12 +19,12 @@ endless =
 	planet_class="pc_arid"
 	system_name="Messiah"
 	initializer="sorrow_system"
-	graphical_culture="pirate_01"
+	graphical_culture="ancient_01"
 	city_graphical_culture="ancient_01"
 	empire_flag={
 		icon={
-			category="endless"
-			file="flag_endless.dds"
+			category="domination"
+			file="domination_10.dds"
 		}
 		background={
 			category="backgrounds"

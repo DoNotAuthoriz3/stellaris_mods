@@ -197,16 +197,11 @@ CAE1 = {
 
 
    ### CHARACTERS
+character_names = {
 
-   character_names = {
-     default = {
-       # A complete name
-       full_names = {
-       }
-
-       # Always combined with a second name
-       first_names = {
-        Mada
+		names1 = {
+			
+			first_names_male = {
 David
 Derek
 John
@@ -220,60 +215,73 @@ Andrew
 Aaron
 Justin
 Owen
-Michelle
 Carl
 Casey
-Lauren
 Andreas
 Roger
-Evelyn
-Renee
 Edward
 Henry
 Gareth
 Donald
 Kevin
-Esther
 Corey
-Daphne
 Cosmo
 Angelo
 Scott
-Nadia
 Jacob
 Giles
 James
-Debbie
 Wesley
 Brock
-Hailey
 Paxton
-Kimberly
-Herna
 Curtis
 William
 Robert
 Jarrett
 Ryan
 Niall
-Courtney
-Aisha
 Jeremy
 Nate
 Joe
-Andrea
-Dominica
-Jane
 Travis
 Jamie
 Daniel
 Ali
 Colin
-Norma
-Sylvia
 Sifton
+Lord
+Earl
+
 
        }
+	first_names_female = {
+Michelle
+Norma
+Sylvia
+Andrea
+Dominica
+Jane
+Courtney
+Aisha
+Kimberly
+Herna
+Esther
+Daphne
+Hailey
+Debbie
+Nadia
+Evelyn
+Renee
+Lauren
+Daisy
+Marie
+Antonia
+Andrea
+Lexi
+Lady
+Countess
+}
+
 
        # Always combined with a first name
        second_names = {
@@ -337,6 +345,18 @@ Castillo
 Gatito
 Cooper
 Robertson
+DeVooght
+DeKonick
+"of Moningrad"
+"of Crothersgrad"
+"of Claudius"
+"of Simcoe"
+"of Port Dover"
+"of Carpenteria"
+"of Lochshire"
+"of Hudson"
+"of Talbot"
+"of the Rhine"
 
 
 
