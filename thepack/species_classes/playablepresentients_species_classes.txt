@@ -1,0 +1,31 @@
+@species_trait_points = 2
+@species_max_traits = 5
+
+Presentient = {
+randomized = no
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = {
+		"pre_mam6"
+		"pre_mam13"
+		"pre_rep09"
+		"pre_rep12"
+		"pre_avi1"
+		"pre_avi12"
+		"pre_art1"
+		"pre_art11"
+		"pre_art12"
+		"pre_art13"
+		"pre_art14"
+		"pre_art15"
+		"pre_mol1"
+		"pre_mol3"
+		"pre_fun9"
+		"pre_fun13"
+	}
+	
+	graphical_culture = presentient_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+	species_trait_points = @species_trait_points
+	species_max_traits = @species_max_traits
+} 
