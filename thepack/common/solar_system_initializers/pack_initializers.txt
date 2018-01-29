@@ -1,4 +1,5 @@
 @distance = 50
+@long_distance = 150
 @base_moon_distance = 10
 
 #################################################################################################################
@@ -8,6 +9,7 @@
 ### Caesarean System
 pack_caesarea_initializer =
 {
+	name = "NAME_Caesarea"
 	class = "sc_pulsar"
 	asteroids_distance = 80
 
@@ -170,6 +172,7 @@ moon = {		name = "Bellovyna"
 ### Light'send System
 pack_lights_end_initializer =
 {
+	name = "NAME_Light's_End"
 	class = "sc_a"
 	asteroids_distance = 135
 
@@ -382,10 +385,9 @@ pack_lights_end_initializer =
 #################################################################################################################
 
 ### Kyros System
-kyros_system = {
+pack_kyros_initializer = {
 	name = "Kyros"
 	class = "sc_f"
-	usage=custom_empire
 	asteroids_distance = 80
 	planet = {
 		name = "Kyros"
@@ -567,10 +569,11 @@ kyros_system = {
 #################################################################################################################
 
 ### Godshome System
-godshome_system = {
+pack_godshome_initializer = {
 	name = "Godshome"
 	class = "sc_pulsar"
 	asteroids_distance = 290
+	usage = custom_empire
 
 	planet = {
 		name = "Star"
@@ -641,115 +644,14 @@ godshome_system = {
 			modifier = "pm_dangerous_wildlife"
 
 			init_effect = {
-				random_tile = {
-					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-					set_building = "building_capital_1"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
-					add_resource = {
-						resource = minerals
-						amount = 1
-					}
-					random_neighboring_tile = {
-						limit = { has_blocker = no has_building = no }
-						set_building = "building_hydroponics_farm_1"
-						add_resource = {
-							resource = food
-							amount = 1
-							replace = yes
-						}
-					}
-					random_neighboring_tile = {
-						limit = { has_blocker = no has_building = no }
-						set_building = "building_power_plant_1"
-						add_resource = {
-							resource = energy
-							amount = 1
-							replace = yes
-						}
-					}
-					random_neighboring_tile = {
-						limit = { has_blocker = no has_building = no }
-						set_building = "building_power_plant_1"
-						add_resource = {
-							resource = energy
-							amount = 1
-							replace = yes
-						}
-					}
-					random_neighboring_tile = {
-						limit = { has_blocker = no has_building = no }
-						set_building = "building_mining_network_1"
-						add_resource = {
-							resource = minerals
-							amount = 1
-							replace = yes
-						}
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_failing_infrastructure"
-					add_resource = {
-						resource = engineering_research
-						amount = 1
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					add_resource = {
-						resource = society_research
-						amount = 1
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_failing_infrastructure"
-					add_resource = {
-						resource = physics_research
-						amount = 1
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_decrepit_dwellings"
-					add_resource = {
-						resource = energy
-						amount = 2
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_decrepit_dwellings"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_decrepit_dwellings"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}
-				}
+				generate_start_buildings_and_blockers = yes
 			}
 		}
 
 		moon =
 		{
 			name = "Fortress Minor"
-			class = "pc_tropical"
+			class = "pc_nuked"
 			size = 8
 
 			orbit_distance = 7
@@ -801,7 +703,7 @@ godshome_system = {
 
 		moon = {
 			name = "Maestro"
-			class = "pc_barren"
+			class = "pc_nuked"
 			size = 4
 			orbit_distance = 17
 			orbit_angle = 63
@@ -854,20 +756,162 @@ godshome_system = {
 			has_ring = no
 		}
 	}
-
+	
 	neighbor_system = {
-		distance = { min = 10 max = @distance }
-		trigger = {#scope = galactic_object ( parent ). root = root gal obj. from = closest parent. from from = grand parent...
-			#want this?
-		}
-		initializer = "neighbor_t1"
+		distance = { min = 5 max = @long_distance }	
+		initializer = "pack_blackhole_initializer"
 	}
 
 	neighbor_system = {
-		distance = { min = 10 max = @distance }
-		trigger = {#scope = galactic_object ( parent ). root = root gal obj. from = closest parent. from from = grand parent...
-			#want this?
-		}
-		initializer = "neighbor_t1_first_colony"
+		distance = { min = 5 max = @long_distance }	
+		initializer = "pack_blackhole_initializer"
 	}
+	
+	neighbor_system = {
+		distance = { min = 20 max = @long_distance }	
+		initializer = "pack_blackhole_initializer"
+	}
+	
+	neighbor_system = {
+		distance = { min = 20 max = @long_distance }	
+		initializer = "pack_dark_initializer"
+	}
+
+	neighbor_system = {
+		distance = { min = 20 max = @long_distance }	
+		initializer = "pack_dark_initializer"
+	}
+}
+
+
+# Black Holes
+pack_blackhole_initializer = {
+	class = sc_black_hole
+	
+	planet = {
+		class = star
+		orbit_distance = 0
+	}
+	
+	change_orbit = 90
+	
+	planet = {
+		count = { min = 0 max = 1 }
+		class = "pc_barren"
+		entity = "barren_planet_01_destroyed_entity"
+		size = { min = 10 max = 15 }
+		
+		init_effect = { prevent_anomaly = yes }
+	}
+	planet = {
+		count = { min = 0 max = 1 }
+		class = "pc_barren_cold"
+		size = { min = 10 max = 20 }
+	}
+	
+	change_orbit = 30
+	
+	planet = {
+		count = { min = 0 max = 1 }
+		class = "pc_barren_cold"
+		size = { min = 10 max = 20 }
+	}
+
+	change_orbit = 60
+
+	planet = {
+		count = { min = 0 max = 1 }
+		class = "pc_barren"
+		entity = "barren_planet_01_destroyed_entity"
+		size = { min = 10 max = 15 }
+		
+		init_effect = { prevent_anomaly = yes }
+	}
+}
+
+
+# Sol Neighbor Tier 1
+sol_neighbor_t1 = {
+	name = "NAME_Barnard's_Star"
+	class = sc_m
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
+
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	change_orbit = 45
+	
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = 20
+	}
+	
+	neighbor_system = {
+		distance = { min = 10 max = @distance }	
+		initializer = "sol_neighbor_t2_second_colony"
+	}
+}
+
+# Neighbor Tier 1 First Colony
+pack_dark_initializer = {	
+	class = star
+
+	change_orbit = 80
+	
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_distance = 20
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 3 }
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		count = 1
+		orbit_distance = {min = 10 max = 30}
+		class = pc_nuked
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 12 max = 18 }
+	}
+	
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = {min = 10 max = 25}
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {			
+			count = { min = 0 max = 4 }
+			orbit_distance = 5
+		}
+	}	
 }
