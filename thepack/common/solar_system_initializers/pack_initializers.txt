@@ -1,6 +1,10 @@
 @distance = 50
 @base_moon_distance = 10
 
+#################################################################################################################
+#################################################################################################################
+#################################################################################################################
+
 ### Caesarean System
 pack_caesarea_initializer =
 {
@@ -103,117 +107,7 @@ moon = {
 			}
 
 			init_effect = {
-				random_tile = {
-					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-					set_building = "building_capital_1"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
-					add_resource = {
-						resource = minerals
-						amount = 1
-					}
-					random_neighboring_tile = {
-						limit = { has_blocker = no has_building = no }
-						set_building = "building_hydroponics_farm_1"
-						add_resource = {
-							resource = food
-							amount = 1
-							replace = yes
-						}
-					}
-					random_neighboring_tile = {
-						limit = { has_blocker = no has_building = no }
-						set_building = "building_power_plant_1"
-						add_resource = {
-							resource = energy
-							amount = 1
-							replace = yes
-						}
-					}
-					random_neighboring_tile = {
-						limit = { has_blocker = no has_building = no }
-						set_building = "building_power_plant_1"
-						add_resource = {
-							resource = energy
-							amount = 1
-							replace = yes
-						}
-					}
-					random_neighboring_tile = {
-						limit = { has_blocker = no has_building = no }
-						set_building = "building_mining_network_1"
-						add_resource = {
-							resource = minerals
-							amount = 1
-							replace = yes
-						}
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_failing_infrastructure"
-					add_resource = {
-						resource = engineering_research
-						amount = 1
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_failing_infrastructure"
-					add_resource = {
-						resource = society_research
-						amount = 1
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_failing_infrastructure"
-					add_resource = {
-						resource = physics_research
-						amount = 1
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_decrepit_dwellings"
-					add_resource = {
-						resource = energy
-						amount = 2
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_decrepit_dwellings"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_decrepit_dwellings"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
-				}
+				generate_start_buildings_and_blockers = yes
 			}
 		}
 	}
@@ -269,11 +163,15 @@ moon = {		name = "Bellovyna"
 	}
 }
 
+#################################################################################################################
+#################################################################################################################
+#################################################################################################################
+
 ### Light'send System
 pack_lights_end_initializer =
 {
 	class = "sc_a"
-	asteroids_distance = 220
+	asteroids_distance = 135
 
 	usage = custom_empire
 
@@ -289,7 +187,7 @@ pack_lights_end_initializer =
 	planet = {
 		name = "Godsbroke"
 		class = "pc_molten"
-		orbit_distance = 180
+		orbit_distance = 120
 		orbit_angle = 45
 		size = 10
 		has_ring = no
@@ -308,7 +206,7 @@ pack_lights_end_initializer =
 			class = "pc_toxic"
 			size = 6
 			orbit_distance = 1
-			orbit_angle = 270
+			orbit_angle = 200
 			has_ring = no
 		}
 	}
@@ -316,7 +214,7 @@ pack_lights_end_initializer =
 	planet = {
 		name = "Joker"
 		class = "pc_asteroid"
-		orbit_distance = 40
+		orbit_distance = 15
 		orbit_angle = 340
 		size = 5
 		has_ring = no
@@ -326,7 +224,7 @@ pack_lights_end_initializer =
 		name = "Angel"
 		class = "pc_asteroid"
 		orbit_distance = 0
-		orbit_angle = 100
+		orbit_angle = 80
 		size = 5
 		has_ring = no
 	}
@@ -335,7 +233,7 @@ pack_lights_end_initializer =
 		name = "Devil"
 		class = "pc_asteroid"
 		orbit_distance = 0
-		orbit_angle = 290
+		orbit_angle = 180
 		size = 5
 		has_ring = no
 	}
@@ -343,7 +241,7 @@ pack_lights_end_initializer =
 	planet = {
 		name = "Exelcis"
 		class = "pc_gas_giant"
-		orbit_distance = 80
+		orbit_distance = 40
 		orbit_angle = 200
 		size = 50
 		has_ring = no
@@ -353,7 +251,7 @@ pack_lights_end_initializer =
 			name = "Fortress Major"
 			class = "pc_molten"
 			size = 16
-			orbit_distance = 27
+			orbit_distance = 25
 			orbit_angle = 60
 			has_ring = no
 		}
@@ -371,112 +269,10 @@ pack_lights_end_initializer =
 
 			init_effect = {
 				prevent_anomaly = no
-			}
-
+			}			
+		
 			init_effect = {
-				random_tile = {
-					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-					set_building = "building_capital_1"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
-					add_resource = {
-						resource = minerals
-						amount = 1
-					}
-					random_neighboring_tile = {
-						limit = { has_blocker = no has_building = no }
-						set_building = "building_hydroponics_farm_1"
-						add_resource = {
-							resource = food
-							amount = 1
-							replace = yes
-						}
-					}
-					random_neighboring_tile = {
-						limit = { has_blocker = no has_building = no }
-						set_building = "building_power_plant_1"
-						add_resource = {
-							resource = energy
-							amount = 1
-							replace = yes
-						}
-					}
-					random_neighboring_tile = {
-						limit = { has_blocker = no has_building = no }
-						set_building = "building_power_plant_1"
-						add_resource = {
-							resource = energy
-							amount = 1
-							replace = yes
-						}
-					}
-					random_neighboring_tile = {
-						limit = { has_blocker = no has_building = no }
-						set_building = "building_mining_network_1"
-						add_resource = {
-							resource = minerals
-							amount = 1
-							replace = yes
-						}
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_failing_infrastructure"
-					add_resource = {
-						resource = engineering_research
-						amount = 1
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_failing_infrastructure"
-					add_resource = {
-						resource = society_research
-						amount = 1
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_failing_infrastructure"
-					add_resource = {
-						resource = physics_research
-						amount = 1
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_decrepit_dwellings"
-					add_resource = {
-						resource = energy
-						amount = 2
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_decrepit_dwellings"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
-				}
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_decrepit_dwellings"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}
-				}
+				generate_start_buildings_and_blockers = yes
 			}
 		}
 
@@ -493,7 +289,7 @@ pack_lights_end_initializer =
 			name = "Netherfont"
 			class = "pc_frozen"
 			size = 5
-			orbit_distance = 27
+			orbit_distance = 15
 			orbit_angle = 190
 			has_ring = no
 		}
@@ -502,7 +298,7 @@ pack_lights_end_initializer =
 	planet = {
 		name = "Heavenseye"
 		class = "pc_gas_giant"
-		orbit_distance = 50
+		orbit_distance = 30
 		orbit_angle = 320
 		size = 40
 		has_ring = yes
@@ -539,7 +335,7 @@ pack_lights_end_initializer =
 	planet = {
 		name = "Outergate"
 		class = "pc_gas_giant"
-		orbit_distance = 40
+		orbit_distance = 30
 		orbit_angle = 120
 		size = 40
 		has_ring = yes
@@ -581,10 +377,15 @@ pack_lights_end_initializer =
 	}
 }
 
+#################################################################################################################
+#################################################################################################################
+#################################################################################################################
+
 ### Kyros System
 kyros_system = {
 	name = "Kyros"
 	class = "sc_f"
+	usage=custom_empire
 	asteroids_distance = 80
 	planet = {
 		name = "Kyros"
@@ -639,117 +440,7 @@ kyros_system = {
 		}
 
 		init_effect = {
-			random_tile = {
-				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-				set_building = "building_capital_1"
-				add_resource = {
-					resource = food
-					amount = 1
-					replace = yes
-				}
-				add_resource = {
-					resource = minerals
-					amount = 1
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_mining_network_1"
-					add_resource = {
-						resource = minerals
-						amount = 1
-						replace = yes
-					}
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = engineering_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = society_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = physics_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = food
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = energy
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				add_resource = {
-					resource = food
-					amount = 1
-					replace = yes
-				}
-			}
+			generate_start_buildings_and_blockers = yes
 		}
 
 		moon = {
@@ -870,6 +561,10 @@ kyros_system = {
 		initializer = "neighbor_t1_first_colony"
 	}
 }
+
+#################################################################################################################
+#################################################################################################################
+#################################################################################################################
 
 ### Godshome System
 godshome_system = {
